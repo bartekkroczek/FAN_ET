@@ -7,7 +7,8 @@ from figure import Figure
 
 
 class Trial:
-    def __init__(self, time, per, rel, feedb, wait, exp, tip, tip_time):
+    def __init__(self, time, per, rel, feedb, wait, exp, tip, tip_time, answers):
+        self.answers = answers
         self.type = 'trial'
         self.time = time
         self.per = per

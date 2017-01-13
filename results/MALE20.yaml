@@ -6,224 +6,225 @@ list_of_blocks:
     matrix_info:
     - name: A
       parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 19
-        frame: wide
-        rotation: 270
       - brightness: gray
         elements_changed: []
-        figure: 10
+        figure: 18
+        frame: wide
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 12
         frame: thin
+        rotation: 180
+      - brightness: gray
+        elements_changed: []
+        figure: 1
+        frame: wide
         rotation: 90
       - brightness: white
         elements_changed: []
-        figure: 2
-        frame: narrow
+        figure: 10
+        frame: thin
         rotation: 0
-      - brightness: slate
-        elements_changed: []
-        figure: 4
-        frame: narrow
-        rotation: 270
     - name: B
       parameters:
       - brightness: white
         elements_changed: []
-        figure: 2
-        frame: narrow
-        rotation: 0
-      - brightness: slate
-        elements_changed:
-        - [frame, -2]
-        - [rotation, -1]
-        figure: 19
-        frame: thin
-        rotation: 180
-      - brightness: slate
-        elements_changed: []
-        figure: 4
-        frame: narrow
-        rotation: 270
-      - brightness: slate
-        elements_changed:
-        - [rotation, 1]
-        - [frame, 2]
-        - [brightness, 1]
         figure: 10
-        frame: wide
-        rotation: 180
-    - name: C
-      parameters:
-      - brightness: gray
-        elements_changed: []
-        figure: 18
-        frame: wide
-        rotation: 90
-      - brightness: gray
-        elements_changed: []
-        figure: 12
         frame: thin
-        rotation: 90
-      - brightness: white
+        rotation: 0
+      - brightness: gray
         elements_changed: []
-        figure: 8
-        frame: narrow
-        rotation: 90
-      - brightness: slate
-        elements_changed: []
-        figure: 15
+        figure: 1
         frame: wide
-        rotation: 270
-    - name: D2
-      parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 15
-        frame: wide
-        rotation: 270
+        rotation: 90
       - brightness: white
         elements_changed:
+        - [frame, -1]
         - [brightness, -1]
         - [rotation, -1]
         figure: 18
-        frame: wide
+        frame: narrow
         rotation: 0
-      - brightness: slate
+      - brightness: white
         elements_changed:
-        - [rotation, 1]
-        - [frame, 2]
-        - [brightness, 1]
+        - [rotation, -2]
+        - [brightness, -2]
         figure: 12
-        frame: wide
+        frame: thin
+        rotation: 0
+    - name: C
+      parameters:
+      - brightness: slate
+        elements_changed: []
+        figure: 7
+        frame: narrow
+        rotation: 270
+      - brightness: slate
+        elements_changed: []
+        figure: 14
+        frame: narrow
         rotation: 180
       - brightness: white
         elements_changed: []
-        figure: 8
-        frame: narrow
+        figure: 13
+        frame: wide
+        rotation: 0
+      - brightness: white
+        elements_changed: []
+        figure: 17
+        frame: thin
         rotation: 90
     - name: D4
       parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 15
-        frame: wide
-        rotation: 270
-      - brightness: gray
-        elements_changed:
-        - [frame, -2]
-        - [rotation, -1]
-        figure: 18
-        frame: thin
-        rotation: 0
-      - brightness: gray
-        elements_changed: []
-        figure: 12
-        frame: thin
-        rotation: 90
       - brightness: white
         elements_changed: []
-        figure: 8
-        frame: narrow
+        figure: 17
+        frame: thin
         rotation: 90
+      - brightness: gray
+        elements_changed:
+        - [frame, -1]
+        - [brightness, -1]
+        - [rotation, -1]
+        figure: 7
+        frame: thin
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 14
+        frame: narrow
+        rotation: 180
+      - brightness: white
+        elements_changed: []
+        figure: 13
+        frame: wide
+        rotation: 0
     - name: D5
       parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 15
-        frame: wide
-        rotation: 270
-      - brightness: gray
-        elements_changed:
-        - [frame, -2]
-        figure: 18
-        frame: thin
-        rotation: 90
-      - brightness: gray
-        elements_changed: []
-        figure: 12
-        frame: thin
-        rotation: 90
       - brightness: white
         elements_changed: []
-        figure: 8
-        frame: narrow
-        rotation: 90
-    - name: D3
-      parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 15
-        frame: wide
-        rotation: 270
-      - brightness: gray
-        elements_changed:
-        - [frame, -2]
-        figure: 18
+        figure: 17
         frame: thin
         rotation: 90
       - brightness: slate
+        elements_changed: []
+        figure: 7
+        frame: narrow
+        rotation: 270
+      - brightness: white
         elements_changed:
-        - [rotation, 1]
-        - [frame, 2]
-        - [brightness, 1]
-        figure: 12
-        frame: wide
+        - [brightness, -2]
+        figure: 14
+        frame: narrow
         rotation: 180
       - brightness: white
         elements_changed: []
-        figure: 8
-        frame: narrow
-        rotation: 90
-    - name: D1
-      parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 15
+        figure: 13
         frame: wide
-        rotation: 270
-      - brightness: gray
-        elements_changed:
-        - [frame, -2]
-        - [rotation, -1]
-        figure: 18
-        frame: thin
         rotation: 0
-      - brightness: slate
-        elements_changed:
-        - [rotation, 1]
-        - [frame, 2]
-        - [brightness, 1]
-        figure: 12
-        frame: wide
-        rotation: 180
-      - brightness: white
-        elements_changed: []
-        figure: 8
-        frame: narrow
-        rotation: 90
     - name: D6
       parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 15
-        frame: wide
-        rotation: 270
-      - brightness: gray
-        elements_changed: []
-        figure: 18
-        frame: wide
-        rotation: 90
-      - brightness: gray
-        elements_changed: []
-        figure: 12
-        frame: thin
-        rotation: 90
       - brightness: white
         elements_changed: []
-        figure: 8
-        frame: narrow
+        figure: 17
+        frame: thin
         rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 7
+        frame: narrow
+        rotation: 270
+      - brightness: slate
+        elements_changed: []
+        figure: 14
+        frame: narrow
+        rotation: 180
+      - brightness: white
+        elements_changed: []
+        figure: 13
+        frame: wide
+        rotation: 0
+    - name: D2
+      parameters:
+      - brightness: white
+        elements_changed: []
+        figure: 17
+        frame: thin
+        rotation: 90
+      - brightness: gray
+        elements_changed:
+        - [frame, -1]
+        - [brightness, -1]
+        - [rotation, -1]
+        figure: 7
+        frame: thin
+        rotation: 180
+      - brightness: slate
+        elements_changed:
+        - [rotation, -2]
+        - [frame, 1]
+        figure: 14
+        frame: wide
+        rotation: 0
+      - brightness: white
+        elements_changed: []
+        figure: 13
+        frame: wide
+        rotation: 0
+    - name: D3
+      parameters:
+      - brightness: white
+        elements_changed: []
+        figure: 17
+        frame: thin
+        rotation: 90
+      - brightness: gray
+        elements_changed:
+        - [frame, -1]
+        - [brightness, -1]
+        - [rotation, -1]
+        figure: 7
+        frame: thin
+        rotation: 180
+      - brightness: slate
+        elements_changed:
+        - [rotation, -2]
+        figure: 14
+        frame: narrow
+        rotation: 0
+      - brightness: white
+        elements_changed: []
+        figure: 13
+        frame: wide
+        rotation: 0
+    - name: D1
+      parameters:
+      - brightness: white
+        elements_changed: []
+        figure: 17
+        frame: thin
+        rotation: 90
+      - brightness: gray
+        elements_changed:
+        - [frame, -1]
+        - [brightness, -1]
+        - [rotation, -1]
+        figure: 7
+        frame: thin
+        rotation: 180
+      - brightness: white
+        elements_changed:
+        - [rotation, -2]
+        - [brightness, -2]
+        figure: 14
+        frame: narrow
+        rotation: 0
+      - brightness: white
+        elements_changed: []
+        figure: 13
+        frame: wide
+        rotation: 0
     rel: 2
     time: 150
     tip: ''
@@ -235,224 +236,216 @@ list_of_blocks:
     matrix_info:
     - name: A
       parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 3
-        frame: wide
-        rotation: 90
       - brightness: white
         elements_changed: []
-        figure: 17
+        figure: 1
         frame: thin
         rotation: 90
       - brightness: white
         elements_changed: []
-        figure: 9
-        frame: thin
-        rotation: 180
-      - brightness: slate
-        elements_changed: []
-        figure: 10
+        figure: 13
         frame: narrow
-        rotation: 270
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 19
+        frame: thin
+        rotation: 0
+      - brightness: slate
+        elements_changed: []
+        figure: 7
+        frame: wide
+        rotation: 180
     - name: B
       parameters:
       - brightness: slate
         elements_changed:
         - [brightness, 2]
-        - [frame, 1]
         - [rotation, 1]
-        figure: 9
+        figure: 13
         frame: narrow
-        rotation: 270
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 19
+        frame: thin
+        rotation: 0
+      - brightness: slate
+        elements_changed: []
+        figure: 7
+        frame: wide
+        rotation: 180
+      - brightness: gray
+        elements_changed:
+        - [brightness, 1]
+        figure: 1
+        frame: thin
+        rotation: 90
+    - name: C
+      parameters:
+      - brightness: white
+        elements_changed: []
+        figure: 20
+        frame: narrow
+        rotation: 90
+      - brightness: white
+        elements_changed: []
+        figure: 4
+        frame: wide
+        rotation: 180
+      - brightness: gray
+        elements_changed: []
+        figure: 16
+        frame: thin
+        rotation: 0
       - brightness: slate
         elements_changed: []
         figure: 10
-        frame: narrow
-        rotation: 270
-      - brightness: white
-        elements_changed: []
-        figure: 17
-        frame: thin
-        rotation: 90
-      - brightness: slate
-        elements_changed:
-        - [rotation, 2]
-        - [frame, -2]
-        figure: 3
-        frame: thin
-        rotation: 270
-    - name: C
-      parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 5
         frame: wide
-        rotation: 0
-      - brightness: gray
-        elements_changed: []
-        figure: 19
-        frame: thin
-        rotation: 180
-      - brightness: white
-        elements_changed: []
-        figure: 4
-        frame: narrow
-        rotation: 180
-      - brightness: gray
-        elements_changed: []
-        figure: 13
-        frame: wide
-        rotation: 180
-    - name: D1
-      parameters:
-      - brightness: slate
-        elements_changed:
-        - [brightness, 2]
-        - [frame, 1]
-        - [rotation, 1]
-        figure: 4
-        frame: wide
-        rotation: 270
-      - brightness: slate
-        elements_changed:
-        - [rotation, 2]
-        - [frame, -2]
-        figure: 5
-        frame: thin
-        rotation: 180
-      - brightness: gray
-        elements_changed: []
-        figure: 13
-        frame: wide
-        rotation: 180
-      - brightness: gray
-        elements_changed: []
-        figure: 19
-        frame: thin
-        rotation: 180
-    - name: D5
-      parameters:
-      - brightness: white
-        elements_changed: []
-        figure: 4
-        frame: narrow
-        rotation: 180
-      - brightness: slate
-        elements_changed:
-        - [rotation, 2]
-        figure: 5
-        frame: wide
-        rotation: 180
-      - brightness: gray
-        elements_changed: []
-        figure: 13
-        frame: wide
-        rotation: 180
-      - brightness: gray
-        elements_changed: []
-        figure: 19
-        frame: thin
-        rotation: 180
-    - name: D6
-      parameters:
-      - brightness: white
-        elements_changed: []
-        figure: 4
-        frame: narrow
-        rotation: 180
-      - brightness: slate
-        elements_changed: []
-        figure: 5
-        frame: wide
-        rotation: 0
-      - brightness: gray
-        elements_changed: []
-        figure: 13
-        frame: wide
-        rotation: 180
-      - brightness: gray
-        elements_changed: []
-        figure: 19
-        frame: thin
         rotation: 180
     - name: D4
       parameters:
-      - brightness: white
+      - brightness: gray
         elements_changed: []
-        figure: 4
-        frame: narrow
+        figure: 16
+        frame: thin
+        rotation: 0
+      - brightness: slate
+        elements_changed: []
+        figure: 10
+        frame: wide
         rotation: 180
       - brightness: slate
         elements_changed:
-        - [rotation, 2]
-        - [frame, -2]
-        figure: 5
-        frame: thin
-        rotation: 180
-      - brightness: gray
-        elements_changed: []
-        figure: 13
+        - [brightness, 2]
+        - [rotation, 1]
+        figure: 4
         frame: wide
-        rotation: 180
-      - brightness: gray
+        rotation: 270
+      - brightness: white
         elements_changed: []
-        figure: 19
-        frame: thin
-        rotation: 180
+        figure: 20
+        frame: narrow
+        rotation: 90
     - name: D3
       parameters:
+      - brightness: gray
+        elements_changed: []
+        figure: 16
+        frame: thin
+        rotation: 0
       - brightness: slate
+        elements_changed: []
+        figure: 10
+        frame: wide
+        rotation: 180
+      - brightness: white
         elements_changed:
-        - [brightness, 2]
-        - [frame, 1]
         - [rotation, 1]
         figure: 4
         frame: wide
         rotation: 270
-      - brightness: slate
+      - brightness: gray
         elements_changed:
-        - [frame, -2]
-        figure: 5
+        - [brightness, 1]
+        figure: 20
+        frame: narrow
+        rotation: 90
+    - name: D1
+      parameters:
+      - brightness: gray
+        elements_changed: []
+        figure: 16
         frame: thin
         rotation: 0
-      - brightness: gray
+      - brightness: slate
         elements_changed: []
-        figure: 13
+        figure: 10
         frame: wide
         rotation: 180
-      - brightness: gray
-        elements_changed: []
-        figure: 19
-        frame: thin
-        rotation: 180
-    - name: D2
-      parameters:
       - brightness: slate
         elements_changed:
         - [brightness, 2]
-        - [frame, 1]
+        - [rotation, 1]
+        figure: 4
+        frame: wide
+        rotation: 270
+      - brightness: gray
+        elements_changed:
+        - [brightness, 1]
+        figure: 20
+        frame: narrow
+        rotation: 90
+    - name: D2
+      parameters:
+      - brightness: gray
+        elements_changed: []
+        figure: 16
+        frame: thin
+        rotation: 0
+      - brightness: slate
+        elements_changed: []
+        figure: 10
+        frame: wide
+        rotation: 180
+      - brightness: slate
+        elements_changed:
+        - [brightness, 2]
         - [rotation, 1]
         figure: 4
         frame: wide
         rotation: 270
       - brightness: white
         elements_changed:
-        - [brightness, -2]
-        - [frame, -2]
-        figure: 5
+        - [rotation, -1]
+        figure: 20
+        frame: narrow
+        rotation: 0
+    - name: D5
+      parameters:
+      - brightness: gray
+        elements_changed: []
+        figure: 16
         frame: thin
         rotation: 0
-      - brightness: gray
+      - brightness: slate
         elements_changed: []
-        figure: 13
+        figure: 10
         frame: wide
         rotation: 180
+      - brightness: slate
+        elements_changed:
+        - [brightness, 2]
+        figure: 4
+        frame: wide
+        rotation: 180
+      - brightness: white
+        elements_changed: []
+        figure: 20
+        frame: narrow
+        rotation: 90
+    - name: D6
+      parameters:
       - brightness: gray
         elements_changed: []
-        figure: 19
+        figure: 16
         frame: thin
+        rotation: 0
+      - brightness: slate
+        elements_changed: []
+        figure: 10
+        frame: wide
         rotation: 180
+      - brightness: white
+        elements_changed: []
+        figure: 4
+        frame: wide
+        rotation: 180
+      - brightness: white
+        elements_changed: []
+        figure: 20
+        frame: narrow
+        rotation: 90
     rel: 2
     time: 150
     tip: ''
@@ -466,221 +459,221 @@ list_of_blocks:
     matrix_info:
     - name: A
       parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 1
-        frame: narrow
-        rotation: 180
       - brightness: white
         elements_changed: []
-        figure: 13
+        figure: 16
+        frame: thin
+        rotation: 90
+      - brightness: white
+        elements_changed: []
+        figure: 17
         frame: wide
         rotation: 180
       - brightness: gray
         elements_changed: []
-        figure: 11
-        frame: thin
-        rotation: 270
+        figure: 15
+        frame: narrow
+        rotation: 180
       - brightness: slate
         elements_changed: []
-        figure: 15
+        figure: 10
         frame: wide
-        rotation: 90
+        rotation: 180
     - name: B
       parameters:
-      - brightness: gray
+      - brightness: white
         elements_changed: []
-        figure: 11
-        frame: thin
-        rotation: 270
-      - brightness: gray
+        figure: 17
+        frame: wide
+        rotation: 180
+      - brightness: white
         elements_changed:
         - [rotation, -1]
         - [brightness, -1]
-        figure: 1
-        frame: narrow
-        rotation: 90
-      - brightness: slate
-        elements_changed: []
         figure: 15
-        frame: wide
+        frame: narrow
         rotation: 90
       - brightness: slate
         elements_changed:
-        - [rotation, 1]
-        - [brightness, 2]
-        figure: 13
-        frame: wide
-        rotation: 270
-    - name: C
-      parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 3
-        frame: narrow
-        rotation: 270
-      - brightness: white
-        elements_changed: []
-        figure: 10
-        frame: wide
-        rotation: 90
-      - brightness: gray
-        elements_changed: []
-        figure: 16
-        frame: thin
-        rotation: 180
-      - brightness: slate
-        elements_changed: []
-        figure: 5
-        frame: narrow
-        rotation: 0
-    - name: D3
-      parameters:
-      - brightness: gray
-        elements_changed: []
-        figure: 16
-        frame: thin
-        rotation: 180
-      - brightness: slate
-        elements_changed: []
-        figure: 5
-        frame: narrow
-        rotation: 0
-      - brightness: slate
-        elements_changed:
-        - [rotation, 1]
-        - [brightness, 2]
-        figure: 10
-        frame: wide
-        rotation: 180
-      - brightness: gray
-        elements_changed:
-        - [brightness, -1]
-        figure: 3
-        frame: narrow
-        rotation: 270
-    - name: D6
-      parameters:
-      - brightness: gray
-        elements_changed: []
-        figure: 16
-        frame: thin
-        rotation: 180
-      - brightness: slate
-        elements_changed: []
-        figure: 5
-        frame: narrow
-        rotation: 0
-      - brightness: white
-        elements_changed: []
-        figure: 10
-        frame: wide
-        rotation: 90
-      - brightness: slate
-        elements_changed: []
-        figure: 3
-        frame: narrow
-        rotation: 270
-    - name: D1
-      parameters:
-      - brightness: gray
-        elements_changed: []
-        figure: 16
-        frame: thin
-        rotation: 180
-      - brightness: slate
-        elements_changed: []
-        figure: 5
-        frame: narrow
-        rotation: 0
-      - brightness: slate
-        elements_changed:
-        - [rotation, 1]
-        - [brightness, 2]
-        figure: 10
-        frame: wide
-        rotation: 180
-      - brightness: gray
-        elements_changed:
-        - [rotation, -1]
-        - [brightness, -1]
-        figure: 3
-        frame: narrow
-        rotation: 180
-    - name: D4
-      parameters:
-      - brightness: gray
-        elements_changed: []
-        figure: 16
-        frame: thin
-        rotation: 180
-      - brightness: slate
-        elements_changed: []
-        figure: 5
-        frame: narrow
-        rotation: 0
-      - brightness: white
-        elements_changed: []
-        figure: 10
-        frame: wide
-        rotation: 90
-      - brightness: gray
-        elements_changed:
-        - [rotation, -1]
-        - [brightness, -1]
-        figure: 3
-        frame: narrow
-        rotation: 180
-    - name: D5
-      parameters:
-      - brightness: gray
-        elements_changed: []
-        figure: 16
-        frame: thin
-        rotation: 180
-      - brightness: slate
-        elements_changed: []
-        figure: 5
-        frame: narrow
-        rotation: 0
-      - brightness: white
-        elements_changed: []
-        figure: 10
-        frame: wide
-        rotation: 90
-      - brightness: gray
-        elements_changed:
-        - [brightness, -1]
-        figure: 3
-        frame: narrow
-        rotation: 270
-    - name: D2
-      parameters:
-      - brightness: gray
-        elements_changed: []
-        figure: 16
-        frame: thin
-        rotation: 180
-      - brightness: slate
-        elements_changed: []
-        figure: 5
-        frame: narrow
-        rotation: 0
-      - brightness: white
-        elements_changed:
-        - [rotation, 1]
         - [frame, -2]
         figure: 10
         frame: thin
         rotation: 180
       - brightness: gray
         elements_changed:
+        - [brightness, 1]
+        figure: 16
+        frame: thin
+        rotation: 90
+    - name: C
+      parameters:
+      - brightness: white
+        elements_changed: []
+        figure: 9
+        frame: thin
+        rotation: 0
+      - brightness: white
+        elements_changed: []
+        figure: 11
+        frame: wide
+        rotation: 90
+      - brightness: gray
+        elements_changed: []
+        figure: 5
+        frame: narrow
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 20
+        frame: wide
+        rotation: 180
+    - name: D4
+      parameters:
+      - brightness: white
+        elements_changed: []
+        figure: 11
+        frame: wide
+        rotation: 90
+      - brightness: white
+        elements_changed:
         - [rotation, -1]
         - [brightness, -1]
-        figure: 3
+        figure: 5
         frame: narrow
+        rotation: 0
+      - brightness: slate
+        elements_changed: []
+        figure: 20
+        frame: wide
         rotation: 180
-    rel: 2
+      - brightness: white
+        elements_changed: []
+        figure: 9
+        frame: thin
+        rotation: 0
+    - name: D2
+      parameters:
+      - brightness: white
+        elements_changed: []
+        figure: 11
+        frame: wide
+        rotation: 90
+      - brightness: white
+        elements_changed:
+        - [rotation, -1]
+        - [brightness, -1]
+        figure: 5
+        frame: narrow
+        rotation: 0
+      - brightness: white
+        elements_changed:
+        - [brightness, -2]
+        figure: 20
+        frame: wide
+        rotation: 180
+      - brightness: gray
+        elements_changed:
+        - [brightness, 1]
+        figure: 9
+        frame: thin
+        rotation: 0
+    - name: D5
+      parameters:
+      - brightness: white
+        elements_changed: []
+        figure: 11
+        frame: wide
+        rotation: 90
+      - brightness: white
+        elements_changed:
+        - [brightness, -1]
+        figure: 5
+        frame: narrow
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 20
+        frame: wide
+        rotation: 180
+      - brightness: white
+        elements_changed: []
+        figure: 9
+        frame: thin
+        rotation: 0
+    - name: D1
+      parameters:
+      - brightness: white
+        elements_changed: []
+        figure: 11
+        frame: wide
+        rotation: 90
+      - brightness: white
+        elements_changed:
+        - [rotation, -1]
+        - [brightness, -1]
+        figure: 5
+        frame: narrow
+        rotation: 0
+      - brightness: slate
+        elements_changed:
+        - [frame, -2]
+        figure: 20
+        frame: thin
+        rotation: 180
+      - brightness: gray
+        elements_changed:
+        - [brightness, 1]
+        figure: 9
+        frame: thin
+        rotation: 0
+    - name: D3
+      parameters:
+      - brightness: white
+        elements_changed: []
+        figure: 11
+        frame: wide
+        rotation: 90
+      - brightness: white
+        elements_changed:
+        - [brightness, -1]
+        figure: 5
+        frame: narrow
+        rotation: 90
+      - brightness: slate
+        elements_changed:
+        - [frame, -2]
+        figure: 20
+        frame: thin
+        rotation: 180
+      - brightness: gray
+        elements_changed:
+        - [brightness, 1]
+        figure: 9
+        frame: thin
+        rotation: 0
+    - name: D6
+      parameters:
+      - brightness: white
+        elements_changed: []
+        figure: 11
+        frame: wide
+        rotation: 90
+      - brightness: gray
+        elements_changed: []
+        figure: 5
+        frame: narrow
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 20
+        frame: wide
+        rotation: 180
+      - brightness: white
+        elements_changed: []
+        figure: 9
+        frame: thin
+        rotation: 0
+    rel: 3
     time: 120
     tip: ''
     tip_time: 4
@@ -691,240 +684,245 @@ list_of_blocks:
     matrix_info:
     - name: A
       parameters:
-      - brightness: gray
+      - brightness: slate
+        elements_changed: []
+        figure: 16
+        frame: wide
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 3
+        frame: thin
+        rotation: 180
+      - brightness: white
+        elements_changed: []
+        figure: 14
+        frame: thin
+        rotation: 270
+      - brightness: white
         elements_changed: []
         figure: 8
         frame: wide
-        rotation: 90
-      - brightness: white
-        elements_changed: []
-        figure: 19
-        frame: thin
-        rotation: 180
-      - brightness: slate
-        elements_changed: []
-        figure: 5
-        frame: thin
-        rotation: 180
-      - brightness: slate
-        elements_changed: []
-        figure: 12
-        frame: wide
-        rotation: 180
+        rotation: 0
     - name: B
       parameters:
+      - brightness: gray
+        elements_changed:
+        - [rotation, -1]
+        - [brightness, 1]
+        figure: 14
+        frame: thin
+        rotation: 180
+      - brightness: slate
+        elements_changed:
+        - [brightness, 2]
+        - [frame, -2]
+        figure: 8
+        frame: thin
+        rotation: 0
       - brightness: white
         elements_changed:
         - [brightness, -2]
-        - [frame, -2]
-        figure: 12
-        frame: thin
-        rotation: 180
+        - [rotation, -2]
+        - [frame, 1]
+        figure: 3
+        frame: narrow
+        rotation: 0
       - brightness: gray
         elements_changed:
         - [brightness, -1]
-        - [rotation, -2]
-        figure: 5
-        frame: thin
-        rotation: 0
-      - brightness: slate
-        elements_changed:
-        - [rotation, 2]
-        - [brightness, 1]
-        - [frame, -1]
-        figure: 8
-        frame: narrow
-        rotation: 270
-      - brightness: white
-        elements_changed:
-        - [frame, 2]
         - [rotation, 1]
-        figure: 19
-        frame: wide
+        - [frame, -1]
+        figure: 16
+        frame: narrow
         rotation: 270
     - name: C
       parameters:
-      - brightness: gray
+      - brightness: slate
         elements_changed: []
-        figure: 10
+        figure: 12
         frame: narrow
+        rotation: 0
+      - brightness: slate
+        elements_changed: []
+        figure: 17
+        frame: narrow
+        rotation: 180
+      - brightness: white
+        elements_changed: []
+        figure: 4
+        frame: thin
         rotation: 90
       - brightness: white
         elements_changed: []
-        figure: 18
-        frame: thin
-        rotation: 180
-      - brightness: slate
-        elements_changed: []
-        figure: 16
-        frame: narrow
-        rotation: 180
-      - brightness: slate
-        elements_changed: []
-        figure: 13
+        figure: 11
         frame: wide
         rotation: 90
-    - name: D4
-      parameters:
-      - brightness: white
-        elements_changed: []
-        figure: 18
-        frame: thin
-        rotation: 180
-      - brightness: white
-        elements_changed:
-        - [brightness, -2]
-        - [frame, -2]
-        figure: 13
-        frame: thin
-        rotation: 90
-      - brightness: gray
-        elements_changed: []
-        figure: 10
-        frame: narrow
-        rotation: 90
-      - brightness: slate
-        elements_changed: []
-        figure: 16
-        frame: narrow
-        rotation: 180
-    - name: D6
-      parameters:
-      - brightness: white
-        elements_changed: []
-        figure: 18
-        frame: thin
-        rotation: 180
-      - brightness: slate
-        elements_changed: []
-        figure: 13
-        frame: wide
-        rotation: 90
-      - brightness: gray
-        elements_changed: []
-        figure: 10
-        frame: narrow
-        rotation: 90
-      - brightness: slate
-        elements_changed: []
-        figure: 16
-        frame: narrow
-        rotation: 180
     - name: D2
       parameters:
       - brightness: slate
         elements_changed:
         - [brightness, 2]
-        - [rotation, 1]
-        figure: 18
-        frame: thin
-        rotation: 270
-      - brightness: white
-        elements_changed:
-        - [brightness, -2]
         - [frame, -2]
-        figure: 13
+        figure: 11
         frame: thin
         rotation: 90
-      - brightness: slate
-        elements_changed:
-        - [rotation, 2]
-        - [brightness, 1]
-        - [frame, -1]
-        figure: 10
-        frame: thin
-        rotation: 270
       - brightness: gray
         elements_changed:
         - [brightness, -1]
-        - [rotation, -2]
-        figure: 16
-        frame: narrow
-        rotation: 0
-    - name: D3
-      parameters:
+        - [rotation, 1]
+        - [frame, -1]
+        figure: 12
+        frame: thin
+        rotation: 90
       - brightness: white
+        elements_changed:
+        - [brightness, -2]
+        - [rotation, -2]
+        - [frame, 1]
+        figure: 17
+        frame: wide
+        rotation: 0
+      - brightness: gray
         elements_changed:
         - [frame, 2]
-        figure: 18
-        frame: wide
-        rotation: 180
-      - brightness: white
-        elements_changed:
-        - [brightness, -2]
-        - [frame, -2]
-        figure: 13
-        frame: thin
-        rotation: 90
-      - brightness: slate
-        elements_changed:
-        - [rotation, 2]
         - [brightness, 1]
-        - [frame, -1]
-        figure: 10
-        frame: thin
-        rotation: 270
-      - brightness: gray
-        elements_changed:
-        - [brightness, -1]
-        - [rotation, -2]
-        figure: 16
-        frame: narrow
-        rotation: 0
+        figure: 4
+        frame: wide
+        rotation: 90
     - name: D5
       parameters:
       - brightness: white
-        elements_changed:
-        - [frame, 2]
-        figure: 18
-        frame: wide
-        rotation: 180
-      - brightness: slate
         elements_changed: []
-        figure: 13
+        figure: 11
         frame: wide
         rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 12
+        frame: narrow
+        rotation: 0
+      - brightness: slate
+        elements_changed: []
+        figure: 17
+        frame: narrow
+        rotation: 180
       - brightness: gray
-        elements_changed: []
-        figure: 10
-        frame: narrow
+        elements_changed:
+        - [brightness, 1]
+        figure: 4
+        frame: thin
         rotation: 90
-      - brightness: slate
-        elements_changed: []
-        figure: 16
-        frame: narrow
-        rotation: 180
     - name: D1
       parameters:
-      - brightness: white
-        elements_changed:
-        - [frame, 2]
-        - [rotation, 1]
-        figure: 18
-        frame: wide
-        rotation: 270
-      - brightness: white
-        elements_changed:
-        - [brightness, -2]
-        - [frame, -2]
-        figure: 13
-        frame: thin
-        rotation: 90
       - brightness: slate
         elements_changed:
-        - [rotation, 2]
-        - [brightness, 1]
-        - [frame, -1]
-        figure: 10
+        - [brightness, 2]
+        - [frame, -2]
+        figure: 11
         frame: thin
-        rotation: 270
+        rotation: 90
       - brightness: gray
         elements_changed:
         - [brightness, -1]
+        - [rotation, 1]
+        - [frame, -1]
+        figure: 12
+        frame: thin
+        rotation: 90
+      - brightness: white
+        elements_changed:
+        - [brightness, -2]
         - [rotation, -2]
-        figure: 16
+        - [frame, 1]
+        figure: 17
+        frame: wide
+        rotation: 0
+      - brightness: gray
+        elements_changed:
+        - [rotation, -1]
+        - [brightness, 1]
+        figure: 4
+        frame: thin
+        rotation: 0
+    - name: D4
+      parameters:
+      - brightness: white
+        elements_changed: []
+        figure: 11
+        frame: wide
+        rotation: 90
+      - brightness: gray
+        elements_changed:
+        - [brightness, -1]
+        - [rotation, 1]
+        - [frame, -1]
+        figure: 12
+        frame: thin
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 17
+        frame: narrow
+        rotation: 180
+      - brightness: white
+        elements_changed: []
+        figure: 4
+        frame: thin
+        rotation: 90
+    - name: D6
+      parameters:
+      - brightness: white
+        elements_changed: []
+        figure: 11
+        frame: wide
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 12
         frame: narrow
         rotation: 0
+      - brightness: slate
+        elements_changed: []
+        figure: 17
+        frame: narrow
+        rotation: 180
+      - brightness: white
+        elements_changed: []
+        figure: 4
+        frame: thin
+        rotation: 90
+    - name: D3
+      parameters:
+      - brightness: slate
+        elements_changed:
+        - [brightness, 2]
+        - [frame, -2]
+        figure: 11
+        frame: thin
+        rotation: 90
+      - brightness: gray
+        elements_changed:
+        - [brightness, -1]
+        - [rotation, 1]
+        - [frame, -1]
+        figure: 12
+        frame: thin
+        rotation: 90
+      - brightness: white
+        elements_changed:
+        - [brightness, -2]
+        - [rotation, -2]
+        - [frame, 1]
+        figure: 17
+        frame: wide
+        rotation: 0
+      - brightness: gray
+        elements_changed:
+        - [brightness, 1]
+        figure: 4
+        frame: thin
+        rotation: 90
     rel: 4
     time: 120
     tip: ''
@@ -938,221 +936,226 @@ list_of_blocks:
       parameters:
       - brightness: gray
         elements_changed: []
-        figure: 20
-        frame: narrow
-        rotation: 90
-      - brightness: gray
-        elements_changed: []
         figure: 3
-        frame: narrow
+        frame: thin
         rotation: 180
       - brightness: white
         elements_changed: []
-        figure: 10
-        frame: thin
+        figure: 4
+        frame: wide
+        rotation: 90
+      - brightness: white
+        elements_changed: []
+        figure: 15
+        frame: wide
         rotation: 180
       - brightness: slate
         elements_changed: []
-        figure: 19
-        frame: wide
+        figure: 5
+        frame: thin
         rotation: 90
     - name: B
       parameters:
-      - brightness: slate
-        elements_changed:
-        - [frame, 1]
-        - [brightness, 1]
-        figure: 3
-        frame: wide
-        rotation: 180
-      - brightness: white
-        elements_changed: []
-        figure: 10
-        frame: thin
-        rotation: 180
-      - brightness: white
-        elements_changed:
-        - [brightness, -2]
-        - [frame, -2]
-        figure: 19
-        frame: thin
-        rotation: 90
       - brightness: gray
         elements_changed:
-        - [frame, -1]
-        figure: 20
+        - [rotation, 1]
+        - [brightness, 1]
+        figure: 15
+        frame: wide
+        rotation: 270
+      - brightness: gray
+        elements_changed:
+        - [rotation, -2]
+        figure: 3
+        frame: thin
+        rotation: 0
+      - brightness: slate
+        elements_changed: []
+        figure: 5
         frame: thin
         rotation: 90
+      - brightness: slate
+        elements_changed:
+        - [rotation, 2]
+        - [frame, -1]
+        - [brightness, 2]
+        figure: 4
+        frame: narrow
+        rotation: 270
     - name: C
       parameters:
       - brightness: gray
         elements_changed: []
-        figure: 8
-        frame: wide
-        rotation: 0
-      - brightness: white
-        elements_changed: []
-        figure: 16
+        figure: 6
         frame: narrow
         rotation: 180
       - brightness: white
         elements_changed: []
-        figure: 1
-        frame: thin
-        rotation: 270
+        figure: 9
+        frame: narrow
+        rotation: 0
+      - brightness: gray
+        elements_changed: []
+        figure: 17
+        frame: wide
+        rotation: 0
       - brightness: slate
         elements_changed: []
-        figure: 4
-        frame: wide
-        rotation: 0
-    - name: D6
-      parameters:
-      - brightness: white
-        elements_changed: []
-        figure: 1
+        figure: 14
         frame: thin
         rotation: 270
-      - brightness: slate
-        elements_changed: []
-        figure: 4
-        frame: wide
-        rotation: 0
-      - brightness: white
-        elements_changed: []
-        figure: 16
-        frame: narrow
-        rotation: 180
-      - brightness: gray
-        elements_changed: []
-        figure: 8
-        frame: wide
-        rotation: 0
-    - name: D1
-      parameters:
-      - brightness: white
-        elements_changed: []
-        figure: 1
-        frame: thin
-        rotation: 270
-      - brightness: white
-        elements_changed:
-        - [brightness, -2]
-        - [frame, -2]
-        figure: 4
-        frame: thin
-        rotation: 0
-      - brightness: gray
-        elements_changed:
-        - [frame, 1]
-        - [brightness, 1]
-        figure: 16
-        frame: wide
-        rotation: 180
-      - brightness: gray
-        elements_changed:
-        - [frame, -1]
-        figure: 8
-        frame: narrow
-        rotation: 0
     - name: D5
       parameters:
       - brightness: white
         elements_changed: []
-        figure: 1
+        figure: 9
+        frame: narrow
+        rotation: 0
+      - brightness: slate
+        elements_changed: []
+        figure: 14
         frame: thin
         rotation: 270
+      - brightness: gray
+        elements_changed: []
+        figure: 6
+        frame: narrow
+        rotation: 180
       - brightness: slate
         elements_changed:
-        - [frame, -2]
-        figure: 4
-        frame: thin
+        - [brightness, 1]
+        figure: 17
+        frame: wide
         rotation: 0
+    - name: D1
+      parameters:
+      - brightness: slate
+        elements_changed:
+        - [rotation, 2]
+        - [frame, -1]
+        - [brightness, 2]
+        figure: 9
+        frame: thin
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 14
+        frame: thin
+        rotation: 270
+      - brightness: gray
+        elements_changed:
+        - [rotation, -2]
+        figure: 6
+        frame: narrow
+        rotation: 0
+      - brightness: slate
+        elements_changed:
+        - [rotation, 1]
+        - [brightness, 1]
+        figure: 17
+        frame: wide
+        rotation: 90
+    - name: D6
+      parameters:
       - brightness: white
         elements_changed: []
-        figure: 16
+        figure: 9
+        frame: narrow
+        rotation: 0
+      - brightness: slate
+        elements_changed: []
+        figure: 14
+        frame: thin
+        rotation: 270
+      - brightness: gray
+        elements_changed: []
+        figure: 6
         frame: narrow
         rotation: 180
       - brightness: gray
         elements_changed: []
-        figure: 8
+        figure: 17
+        frame: wide
+        rotation: 0
+    - name: D4
+      parameters:
+      - brightness: slate
+        elements_changed:
+        - [rotation, 2]
+        - [frame, -1]
+        - [brightness, 2]
+        figure: 9
+        frame: thin
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 14
+        frame: thin
+        rotation: 270
+      - brightness: gray
+        elements_changed: []
+        figure: 6
+        frame: narrow
+        rotation: 180
+      - brightness: gray
+        elements_changed: []
+        figure: 17
         frame: wide
         rotation: 0
     - name: D3
       parameters:
-      - brightness: white
-        elements_changed: []
-        figure: 1
-        frame: thin
-        rotation: 270
-      - brightness: white
-        elements_changed:
-        - [brightness, -2]
-        - [frame, -2]
-        figure: 4
-        frame: thin
-        rotation: 0
-      - brightness: gray
-        elements_changed:
-        - [brightness, 1]
-        figure: 16
-        frame: narrow
-        rotation: 180
-      - brightness: gray
-        elements_changed:
-        - [frame, -1]
-        figure: 8
-        frame: narrow
-        rotation: 0
-    - name: D2
-      parameters:
-      - brightness: white
-        elements_changed: []
-        figure: 1
-        frame: thin
-        rotation: 270
       - brightness: slate
         elements_changed:
         - [rotation, 2]
-        - [frame, -2]
-        figure: 4
+        - [frame, -1]
+        - [brightness, 2]
+        figure: 9
         frame: thin
         rotation: 180
-      - brightness: gray
-        elements_changed:
-        - [frame, 1]
-        - [brightness, 1]
-        figure: 16
-        frame: wide
-        rotation: 180
-      - brightness: gray
-        elements_changed:
-        - [frame, -1]
-        figure: 8
-        frame: narrow
-        rotation: 0
-    - name: D4
-      parameters:
-      - brightness: white
+      - brightness: slate
         elements_changed: []
-        figure: 1
+        figure: 14
         frame: thin
         rotation: 270
-      - brightness: white
-        elements_changed:
-        - [brightness, -2]
-        - [frame, -2]
-        figure: 4
-        frame: thin
-        rotation: 0
-      - brightness: white
-        elements_changed: []
-        figure: 16
-        frame: narrow
-        rotation: 180
       - brightness: gray
-        elements_changed: []
-        figure: 8
+        elements_changed:
+        - [rotation, -2]
+        figure: 6
+        frame: narrow
+        rotation: 0
+      - brightness: slate
+        elements_changed:
+        - [brightness, 1]
+        figure: 17
         frame: wide
+        rotation: 0
+    - name: D2
+      parameters:
+      - brightness: slate
+        elements_changed:
+        - [rotation, 2]
+        - [frame, -1]
+        - [brightness, 2]
+        figure: 9
+        frame: thin
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 14
+        frame: thin
+        rotation: 270
+      - brightness: gray
+        elements_changed:
+        - [rotation, -2]
+        figure: 6
+        frame: narrow
+        rotation: 0
+      - brightness: slate
+        elements_changed:
+        - [frame, -2]
+        - [brightness, 1]
+        figure: 17
+        frame: thin
         rotation: 0
     rel: 3
     time: 120
@@ -1167,238 +1170,239 @@ list_of_blocks:
       parameters:
       - brightness: gray
         elements_changed: []
-        figure: 11
-        frame: thin
-        rotation: 90
-      - brightness: slate
-        elements_changed: []
-        figure: 13
+        figure: 8
         frame: thin
         rotation: 180
-      - brightness: white
+      - brightness: slate
         elements_changed: []
-        figure: 14
-        frame: narrow
+        figure: 3
+        frame: thin
         rotation: 0
       - brightness: slate
         elements_changed: []
-        figure: 2
+        figure: 7
+        frame: narrow
+        rotation: 90
+      - brightness: white
+        elements_changed: []
+        figure: 4
         frame: wide
         rotation: 180
     - name: B
       parameters:
-      - brightness: white
+      - brightness: slate
         elements_changed:
-        - [brightness, -2]
-        - [rotation, -2]
-        figure: 2
-        frame: wide
+        - [rotation, -1]
+        figure: 7
+        frame: narrow
         rotation: 0
       - brightness: slate
         elements_changed:
-        - [frame, 1]
-        - [rotation, -1]
-        - [brightness, 1]
-        figure: 11
-        frame: narrow
-        rotation: 0
+        - [rotation, 1]
+        - [brightness, 2]
+        figure: 4
+        frame: wide
+        rotation: 270
       - brightness: gray
         elements_changed:
-        - [rotation, 1]
         - [brightness, -1]
-        figure: 13
-        frame: thin
-        rotation: 270
-      - brightness: white
-        elements_changed:
         - [rotation, 2]
-        - [frame, -1]
-        figure: 14
-        frame: thin
+        - [frame, 1]
+        figure: 3
+        frame: narrow
         rotation: 180
+      - brightness: slate
+        elements_changed:
+        - [frame, 2]
+        - [brightness, 1]
+        - [rotation, -2]
+        figure: 8
+        frame: wide
+        rotation: 0
     - name: C
       parameters:
       - brightness: gray
         elements_changed: []
-        figure: 7
+        figure: 1
         frame: thin
         rotation: 180
       - brightness: slate
         elements_changed: []
-        figure: 15
+        figure: 2
         frame: thin
-        rotation: 0
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 13
+        frame: narrow
+        rotation: 270
       - brightness: white
         elements_changed: []
         figure: 18
-        frame: narrow
-        rotation: 0
-      - brightness: slate
-        elements_changed: []
-        figure: 10
         frame: wide
-        rotation: 270
+        rotation: 0
     - name: D2
       parameters:
-      - brightness: white
-        elements_changed:
-        - [brightness, -2]
-        - [rotation, -2]
-        figure: 10
-        frame: wide
-        rotation: 90
       - brightness: slate
         elements_changed:
-        - [frame, 1]
-        - [rotation, -1]
+        - [frame, -1]
+        figure: 13
+        frame: thin
+        rotation: 270
+      - brightness: slate
+        elements_changed:
+        - [frame, 2]
         - [brightness, 1]
-        figure: 7
-        frame: narrow
-        rotation: 90
+        - [rotation, -2]
+        figure: 1
+        frame: wide
+        rotation: 0
       - brightness: slate
         elements_changed:
         - [rotation, 1]
-        - [frame, 2]
-        figure: 15
-        frame: wide
-        rotation: 90
-      - brightness: white
-        elements_changed:
-        - [rotation, 2]
-        - [frame, -1]
+        - [brightness, 2]
         figure: 18
-        frame: thin
-        rotation: 180
-    - name: D3
-      parameters:
-      - brightness: white
-        elements_changed:
-        - [brightness, -2]
-        - [rotation, -2]
-        figure: 10
         frame: wide
-        rotation: 90
-      - brightness: slate
-        elements_changed:
-        - [rotation, -1]
-        - [brightness, 1]
-        figure: 7
-        frame: thin
         rotation: 90
       - brightness: gray
         elements_changed:
-        - [rotation, 1]
         - [brightness, -1]
-        figure: 15
-        frame: thin
-        rotation: 90
-      - brightness: white
-        elements_changed:
         - [rotation, 2]
-        - [frame, -1]
-        figure: 18
-        frame: thin
-        rotation: 180
+        - [frame, 1]
+        figure: 2
+        frame: narrow
+        rotation: 270
     - name: D6
       parameters:
       - brightness: slate
         elements_changed: []
-        figure: 10
-        frame: wide
+        figure: 13
+        frame: narrow
         rotation: 270
       - brightness: gray
         elements_changed: []
-        figure: 7
+        figure: 1
         frame: thin
         rotation: 180
-      - brightness: slate
-        elements_changed: []
-        figure: 15
-        frame: thin
-        rotation: 0
       - brightness: white
         elements_changed: []
         figure: 18
-        frame: narrow
-        rotation: 0
-    - name: D4
-      parameters:
-      - brightness: white
-        elements_changed:
-        - [brightness, -2]
-        - [rotation, -2]
-        figure: 10
         frame: wide
-        rotation: 90
-      - brightness: gray
-        elements_changed: []
-        figure: 7
-        frame: thin
-        rotation: 180
+        rotation: 0
       - brightness: slate
         elements_changed: []
-        figure: 15
+        figure: 2
         frame: thin
-        rotation: 0
-      - brightness: white
-        elements_changed: []
-        figure: 18
-        frame: narrow
-        rotation: 0
-    - name: D1
-      parameters:
-      - brightness: white
-        elements_changed:
-        - [brightness, -2]
-        - [rotation, -2]
-        figure: 10
-        frame: wide
         rotation: 90
+    - name: D3
+      parameters:
       - brightness: slate
         elements_changed:
-        - [frame, 1]
         - [rotation, -1]
-        - [brightness, 1]
-        figure: 7
+        figure: 13
         frame: narrow
-        rotation: 90
-      - brightness: gray
+        rotation: 180
+      - brightness: slate
+        elements_changed:
+        - [frame, 2]
+        - [brightness, 1]
+        - [rotation, -2]
+        figure: 1
+        frame: wide
+        rotation: 0
+      - brightness: slate
         elements_changed:
         - [rotation, 1]
-        - [brightness, -1]
-        figure: 15
-        frame: thin
-        rotation: 90
-      - brightness: white
-        elements_changed:
-        - [rotation, 2]
-        - [frame, -1]
+        - [brightness, 2]
         figure: 18
+        frame: wide
+        rotation: 90
+      - brightness: gray
+        elements_changed:
+        - [brightness, -1]
+        - [rotation, 2]
+        figure: 2
         frame: thin
-        rotation: 180
+        rotation: 270
     - name: D5
       parameters:
-      - brightness: white
-        elements_changed:
-        - [brightness, -2]
-        figure: 10
-        frame: wide
+      - brightness: slate
+        elements_changed: []
+        figure: 13
+        frame: narrow
         rotation: 270
       - brightness: gray
         elements_changed: []
-        figure: 7
+        figure: 1
         frame: thin
         rotation: 180
       - brightness: slate
+        elements_changed:
+        - [brightness, 2]
+        figure: 18
+        frame: wide
+        rotation: 0
+      - brightness: slate
         elements_changed: []
-        figure: 15
+        figure: 2
         frame: thin
+        rotation: 90
+    - name: D1
+      parameters:
+      - brightness: slate
+        elements_changed:
+        - [rotation, -1]
+        figure: 13
+        frame: narrow
+        rotation: 180
+      - brightness: slate
+        elements_changed:
+        - [frame, 2]
+        - [brightness, 1]
+        - [rotation, -2]
+        figure: 1
+        frame: wide
+        rotation: 0
+      - brightness: slate
+        elements_changed:
+        - [rotation, 1]
+        - [brightness, 2]
+        figure: 18
+        frame: wide
+        rotation: 90
+      - brightness: gray
+        elements_changed:
+        - [brightness, -1]
+        - [rotation, 2]
+        - [frame, 1]
+        figure: 2
+        frame: narrow
+        rotation: 270
+    - name: D4
+      parameters:
+      - brightness: slate
+        elements_changed: []
+        figure: 13
+        frame: narrow
+        rotation: 270
+      - brightness: slate
+        elements_changed:
+        - [frame, 2]
+        - [brightness, 1]
+        - [rotation, -2]
+        figure: 1
+        frame: wide
         rotation: 0
       - brightness: white
         elements_changed: []
         figure: 18
-        frame: narrow
+        frame: wide
         rotation: 0
+      - brightness: slate
+        elements_changed: []
+        figure: 2
+        frame: thin
+        rotation: 90
     rel: 4
     time: 120
     tip: ''
@@ -1410,403 +1414,153 @@ list_of_blocks:
     matrix_info:
     - name: A
       parameters:
+      - brightness: slate
+        elements_changed: []
+        figure: 20
+        frame: thin
+        rotation: 270
       - brightness: gray
         elements_changed: []
-        figure: 13
-        frame: thin
-        rotation: 90
-      - brightness: white
-        elements_changed: []
-        figure: 5
-        frame: wide
-        rotation: 270
-      - brightness: white
-        elements_changed: []
-        figure: 18
+        figure: 11
         frame: thin
         rotation: 270
       - brightness: slate
         elements_changed: []
-        figure: 11
+        figure: 5
         frame: wide
         rotation: 0
+      - brightness: white
+        elements_changed: []
+        figure: 9
+        frame: wide
+        rotation: 90
     - name: B
       parameters:
       - brightness: slate
         elements_changed:
+        - [rotation, 1]
+        - [brightness, 2]
         - [frame, -2]
-        - [rotation, 2]
-        figure: 11
+        figure: 9
         frame: thin
         rotation: 180
-      - brightness: white
+      - brightness: gray
         elements_changed:
-        - [brightness, -1]
-        - [rotation, 1]
-        - [frame, 2]
-        figure: 13
-        frame: wide
-        rotation: 180
-      - brightness: white
-        elements_changed:
-        - [rotation, -2]
         - [frame, -1]
+        - [brightness, -1]
         figure: 5
         frame: narrow
-        rotation: 90
-      - brightness: white
+        rotation: 0
+      - brightness: slate
         elements_changed: []
-        figure: 18
+        figure: 20
+        frame: thin
+        rotation: 270
+      - brightness: gray
+        elements_changed: []
+        figure: 11
         frame: thin
         rotation: 270
     - name: C
       parameters:
-      - brightness: gray
-        elements_changed: []
-        figure: 2
-        frame: thin
-        rotation: 0
-      - brightness: white
-        elements_changed: []
-        figure: 8
-        frame: wide
-        rotation: 180
-      - brightness: gray
-        elements_changed: []
-        figure: 1
-        frame: narrow
-        rotation: 180
       - brightness: slate
         elements_changed: []
-        figure: 20
+        figure: 1
+        frame: thin
+        rotation: 270
+      - brightness: gray
+        elements_changed: []
+        figure: 17
+        frame: thin
+        rotation: 270
+      - brightness: gray
+        elements_changed: []
+        figure: 6
+        frame: narrow
+        rotation: 90
+      - brightness: white
+        elements_changed: []
+        figure: 7
         frame: wide
         rotation: 90
     - name: D1
       parameters:
-      - brightness: white
-        elements_changed:
-        - [rotation, -2]
-        - [frame, -1]
-        figure: 8
-        frame: narrow
-        rotation: 0
       - brightness: slate
         elements_changed:
+        - [rotation, 1]
+        - [brightness, 2]
         - [frame, -2]
-        - [rotation, 2]
-        figure: 20
+        figure: 7
+        frame: thin
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 1
+        frame: thin
+        rotation: 270
+      - brightness: gray
+        elements_changed: []
+        figure: 17
         frame: thin
         rotation: 270
       - brightness: white
         elements_changed:
-        - [brightness, -1]
-        - [rotation, 1]
-        - [frame, 2]
-        figure: 2
-        frame: wide
-        rotation: 90
-      - brightness: gray
-        elements_changed: []
-        figure: 1
-        frame: narrow
-        rotation: 180
-    - name: D2
-      parameters:
-      - brightness: white
-        elements_changed:
-        - [rotation, -2]
         - [frame, -1]
-        figure: 8
-        frame: narrow
-        rotation: 0
-      - brightness: white
-        elements_changed:
-        - [brightness, -2]
-        - [rotation, 2]
-        figure: 20
-        frame: wide
-        rotation: 270
-      - brightness: white
-        elements_changed:
         - [brightness, -1]
-        - [rotation, 1]
-        - [frame, 2]
-        figure: 2
-        frame: wide
-        rotation: 90
-      - brightness: gray
-        elements_changed: []
-        figure: 1
-        frame: narrow
-        rotation: 180
-    - name: D6
-      parameters:
-      - brightness: white
-        elements_changed: []
-        figure: 8
-        frame: wide
-        rotation: 180
-      - brightness: slate
-        elements_changed: []
-        figure: 20
-        frame: wide
-        rotation: 90
-      - brightness: gray
-        elements_changed: []
-        figure: 2
+        figure: 6
         frame: thin
-        rotation: 0
-      - brightness: gray
-        elements_changed: []
-        figure: 1
-        frame: narrow
-        rotation: 180
-    - name: D5
-      parameters:
-      - brightness: white
-        elements_changed:
-        - [rotation, -2]
-        figure: 8
-        frame: wide
-        rotation: 0
-      - brightness: slate
-        elements_changed: []
-        figure: 20
-        frame: wide
         rotation: 90
-      - brightness: gray
-        elements_changed: []
-        figure: 2
-        frame: thin
-        rotation: 0
-      - brightness: gray
-        elements_changed: []
-        figure: 1
-        frame: narrow
-        rotation: 180
     - name: D4
       parameters:
       - brightness: white
-        elements_changed:
-        - [rotation, -2]
-        - [frame, -1]
-        figure: 8
-        frame: narrow
-        rotation: 0
-      - brightness: slate
-        elements_changed: []
-        figure: 20
-        frame: wide
-        rotation: 90
-      - brightness: gray
-        elements_changed: []
-        figure: 2
-        frame: thin
-        rotation: 0
-      - brightness: gray
-        elements_changed: []
-        figure: 1
-        frame: narrow
-        rotation: 180
-    - name: D3
-      parameters:
-      - brightness: white
-        elements_changed:
-        - [frame, -1]
-        figure: 8
-        frame: narrow
-        rotation: 180
-      - brightness: slate
-        elements_changed:
-        - [frame, -2]
-        - [rotation, 2]
-        figure: 20
-        frame: thin
-        rotation: 270
-      - brightness: white
-        elements_changed:
-        - [brightness, -1]
-        - [rotation, 1]
-        - [frame, 2]
-        figure: 2
-        frame: wide
-        rotation: 90
-      - brightness: gray
-        elements_changed: []
-        figure: 1
-        frame: narrow
-        rotation: 180
-    rel: 3
-    time: 120
-    tip: ''
-    tip_time: 4
-    type: trial
-    wait: 5
-  - exp: experiment
-    feedb: 0
-    matrix_info:
-    - name: A
-      parameters:
-      - brightness: gray
-        elements_changed: []
-        figure: 12
-        frame: thin
-        rotation: 0
-      - brightness: white
-        elements_changed: []
-        figure: 19
-        frame: wide
-        rotation: 0
-      - brightness: slate
-        elements_changed: []
-        figure: 10
-        frame: narrow
-        rotation: 90
-      - brightness: white
-        elements_changed: []
-        figure: 4
-        frame: thin
-        rotation: 270
-    - name: B
-      parameters:
-      - brightness: slate
-        elements_changed:
-        - [brightness, 2]
-        - [frame, 2]
-        figure: 4
-        frame: wide
-        rotation: 270
-      - brightness: white
-        elements_changed:
-        - [brightness, -1]
-        - [frame, 1]
-        figure: 12
-        frame: narrow
-        rotation: 0
-      - brightness: gray
-        elements_changed:
-        - [rotation, 2]
-        - [brightness, 1]
-        - [frame, -2]
-        figure: 19
-        frame: thin
-        rotation: 180
-      - brightness: white
-        elements_changed:
-        - [rotation, -1]
-        - [brightness, -2]
-        figure: 10
-        frame: narrow
-        rotation: 0
-    - name: C
-      parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 11
-        frame: narrow
-        rotation: 180
-      - brightness: white
         elements_changed: []
         figure: 7
         frame: wide
         rotation: 90
       - brightness: slate
         elements_changed: []
-        figure: 9
-        frame: narrow
-        rotation: 90
-      - brightness: white
-        elements_changed: []
-        figure: 14
+        figure: 1
         frame: thin
         rotation: 270
-    - name: D4
-      parameters:
       - brightness: gray
-        elements_changed:
-        - [rotation, 2]
-        - [brightness, 1]
-        - [frame, -2]
-        figure: 7
+        elements_changed: []
+        figure: 17
         frame: thin
         rotation: 270
-      - brightness: slate
-        elements_changed: []
-        figure: 9
-        frame: narrow
-        rotation: 90
       - brightness: white
-        elements_changed: []
-        figure: 14
+        elements_changed:
+        - [frame, -1]
+        - [brightness, -1]
+        figure: 6
         frame: thin
-        rotation: 270
-      - brightness: slate
-        elements_changed: []
-        figure: 11
-        frame: narrow
-        rotation: 180
+        rotation: 90
     - name: D2
       parameters:
-      - brightness: gray
+      - brightness: slate
         elements_changed:
-        - [rotation, 2]
-        - [brightness, 1]
+        - [rotation, 1]
+        - [brightness, 2]
         - [frame, -2]
         figure: 7
+        frame: thin
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 1
+        frame: thin
+        rotation: 270
+      - brightness: gray
+        elements_changed: []
+        figure: 17
         frame: thin
         rotation: 270
       - brightness: white
         elements_changed:
-        - [rotation, -1]
-        - [brightness, -2]
-        figure: 9
-        frame: narrow
-        rotation: 0
-      - brightness: slate
-        elements_changed:
-        - [brightness, 2]
-        - [rotation, -2]
-        figure: 14
-        frame: thin
-        rotation: 90
-      - brightness: gray
-        elements_changed:
-        - [brightness, -1]
-        - [frame, 1]
-        figure: 11
-        frame: wide
-        rotation: 180
-    - name: D1
-      parameters:
-      - brightness: gray
-        elements_changed:
         - [rotation, 2]
-        - [brightness, 1]
-        - [frame, -2]
-        figure: 7
-        frame: thin
-        rotation: 270
-      - brightness: white
-        elements_changed:
-        - [rotation, -1]
-        - [brightness, -2]
-        figure: 9
-        frame: narrow
-        rotation: 0
-      - brightness: slate
-        elements_changed:
-        - [brightness, 2]
-        - [frame, 2]
-        figure: 14
-        frame: wide
-        rotation: 270
-      - brightness: gray
-        elements_changed:
         - [brightness, -1]
-        - [frame, 1]
-        figure: 11
-        frame: wide
-        rotation: 180
+        figure: 6
+        frame: narrow
+        rotation: 270
     - name: D6
       parameters:
       - brightness: white
@@ -1816,19 +1570,45 @@ list_of_blocks:
         rotation: 90
       - brightness: slate
         elements_changed: []
-        figure: 9
-        frame: narrow
-        rotation: 90
-      - brightness: white
-        elements_changed: []
-        figure: 14
+        figure: 1
         frame: thin
         rotation: 270
+      - brightness: gray
+        elements_changed: []
+        figure: 17
+        frame: thin
+        rotation: 270
+      - brightness: gray
+        elements_changed: []
+        figure: 6
+        frame: narrow
+        rotation: 90
+    - name: D3
+      parameters:
+      - brightness: slate
+        elements_changed:
+        - [rotation, 1]
+        - [brightness, 2]
+        - [frame, -2]
+        figure: 7
+        frame: thin
+        rotation: 180
       - brightness: slate
         elements_changed: []
-        figure: 11
+        figure: 1
+        frame: thin
+        rotation: 270
+      - brightness: gray
+        elements_changed: []
+        figure: 17
+        frame: thin
+        rotation: 270
+      - brightness: white
+        elements_changed:
+        - [brightness, -1]
+        figure: 6
         frame: narrow
-        rotation: 180
+        rotation: 90
     - name: D5
       parameters:
       - brightness: white
@@ -1838,961 +1618,19 @@ list_of_blocks:
         rotation: 90
       - brightness: slate
         elements_changed: []
-        figure: 9
-        frame: narrow
-        rotation: 90
-      - brightness: slate
-        elements_changed:
-        - [brightness, 2]
-        figure: 14
+        figure: 1
         frame: thin
         rotation: 270
-      - brightness: slate
-        elements_changed: []
-        figure: 11
-        frame: narrow
-        rotation: 180
-    - name: D3
-      parameters:
-      - brightness: white
-        elements_changed:
-        - [rotation, 2]
-        - [frame, -2]
-        figure: 7
-        frame: thin
-        rotation: 270
-      - brightness: white
-        elements_changed:
-        - [rotation, -1]
-        - [brightness, -2]
-        figure: 9
-        frame: narrow
-        rotation: 0
-      - brightness: slate
-        elements_changed:
-        - [brightness, 2]
-        - [frame, 2]
-        figure: 14
-        frame: wide
-        rotation: 270
-      - brightness: gray
-        elements_changed:
-        - [brightness, -1]
-        - [frame, 1]
-        figure: 11
-        frame: wide
-        rotation: 180
-    rel: 4
-    time: 120
-    tip: ''
-    tip_time: 4
-    type: trial
-    wait: 5
-  - exp: experiment
-    feedb: 0
-    matrix_info:
-    - name: A
-      parameters:
-      - brightness: white
-        elements_changed: []
-        figure: 8
-        frame: narrow
-        rotation: 90
-      - brightness: slate
-        elements_changed: []
-        figure: 15
-        frame: wide
-        rotation: 180
-      - brightness: gray
-        elements_changed: []
-        figure: 4
-        frame: wide
-        rotation: 180
-      - brightness: white
-        elements_changed: []
-        figure: 7
-        frame: thin
-        rotation: 90
-    - name: B
-      parameters:
-      - brightness: white
-        elements_changed:
-        - [brightness, -2]
-        figure: 15
-        frame: wide
-        rotation: 180
-      - brightness: slate
-        elements_changed:
-        - [rotation, 2]
-        - [brightness, 2]
-        figure: 7
-        frame: thin
-        rotation: 270
-      - brightness: white
-        elements_changed: []
-        figure: 8
-        frame: narrow
-        rotation: 90
-      - brightness: white
-        elements_changed:
-        - [frame, -2]
-        - [brightness, -1]
-        figure: 4
-        frame: thin
-        rotation: 180
-    - name: C
-      parameters:
-      - brightness: white
-        elements_changed: []
-        figure: 13
-        frame: thin
-        rotation: 90
-      - brightness: slate
-        elements_changed: []
-        figure: 11
-        frame: narrow
-        rotation: 90
       - brightness: gray
         elements_changed: []
         figure: 17
-        frame: wide
-        rotation: 270
-      - brightness: white
-        elements_changed: []
-        figure: 5
         frame: thin
-        rotation: 90
-    - name: D3
-      parameters:
+        rotation: 270
       - brightness: gray
-        elements_changed:
-        - [frame, -2]
-        figure: 17
-        frame: thin
-        rotation: 270
-      - brightness: slate
-        elements_changed:
-        - [rotation, 2]
-        - [brightness, 2]
-        figure: 5
-        frame: thin
-        rotation: 270
-      - brightness: white
-        elements_changed:
-        - [brightness, -2]
-        figure: 11
-        frame: narrow
-        rotation: 90
-      - brightness: white
-        elements_changed: []
-        figure: 13
-        frame: thin
-        rotation: 90
-    - name: D5
-      parameters:
-      - brightness: gray
-        elements_changed: []
-        figure: 17
-        frame: wide
-        rotation: 270
-      - brightness: white
-        elements_changed: []
-        figure: 5
-        frame: thin
-        rotation: 90
-      - brightness: white
-        elements_changed:
-        - [brightness, -2]
-        figure: 11
-        frame: narrow
-        rotation: 90
-      - brightness: white
-        elements_changed: []
-        figure: 13
-        frame: thin
-        rotation: 90
-    - name: D2
-      parameters:
-      - brightness: white
-        elements_changed:
-        - [frame, -2]
-        - [brightness, -1]
-        figure: 17
-        frame: thin
-        rotation: 270
-      - brightness: slate
-        elements_changed:
-        - [rotation, 2]
-        - [brightness, 2]
-        figure: 5
-        frame: thin
-        rotation: 270
-      - brightness: slate
         elements_changed:
         - [frame, -1]
-        figure: 11
+        figure: 6
         frame: thin
-        rotation: 90
-      - brightness: white
-        elements_changed: []
-        figure: 13
-        frame: thin
-        rotation: 90
-    - name: D1
-      parameters:
-      - brightness: white
-        elements_changed:
-        - [frame, -2]
-        - [brightness, -1]
-        figure: 17
-        frame: thin
-        rotation: 270
-      - brightness: slate
-        elements_changed:
-        - [rotation, 2]
-        - [brightness, 2]
-        figure: 5
-        frame: thin
-        rotation: 270
-      - brightness: white
-        elements_changed:
-        - [brightness, -2]
-        figure: 11
-        frame: narrow
-        rotation: 90
-      - brightness: white
-        elements_changed: []
-        figure: 13
-        frame: thin
-        rotation: 90
-    - name: D4
-      parameters:
-      - brightness: gray
-        elements_changed: []
-        figure: 17
-        frame: wide
-        rotation: 270
-      - brightness: slate
-        elements_changed:
-        - [rotation, 2]
-        - [brightness, 2]
-        figure: 5
-        frame: thin
-        rotation: 270
-      - brightness: slate
-        elements_changed: []
-        figure: 11
-        frame: narrow
-        rotation: 90
-      - brightness: white
-        elements_changed: []
-        figure: 13
-        frame: thin
-        rotation: 90
-    - name: D6
-      parameters:
-      - brightness: gray
-        elements_changed: []
-        figure: 17
-        frame: wide
-        rotation: 270
-      - brightness: white
-        elements_changed: []
-        figure: 5
-        frame: thin
-        rotation: 90
-      - brightness: slate
-        elements_changed: []
-        figure: 11
-        frame: narrow
-        rotation: 90
-      - brightness: white
-        elements_changed: []
-        figure: 13
-        frame: thin
-        rotation: 90
-    rel: 3
-    time: 120
-    tip: ''
-    tip_time: 4
-    type: trial
-    wait: 5
-  - exp: experiment
-    feedb: 0
-    matrix_info:
-    - name: A
-      parameters:
-      - brightness: white
-        elements_changed: []
-        figure: 10
-        frame: wide
-        rotation: 0
-      - brightness: gray
-        elements_changed: []
-        figure: 8
-        frame: thin
-        rotation: 180
-      - brightness: slate
-        elements_changed: []
-        figure: 18
-        frame: wide
-        rotation: 0
-      - brightness: slate
-        elements_changed: []
-        figure: 20
-        frame: thin
-        rotation: 270
-    - name: B
-      parameters:
-      - brightness: slate
-        elements_changed:
-        - [rotation, -1]
-        - [brightness, 1]
-        figure: 8
-        frame: thin
-        rotation: 90
-      - brightness: slate
-        elements_changed: []
-        figure: 18
-        frame: wide
-        rotation: 0
-      - brightness: slate
-        elements_changed:
-        - [frame, 2]
-        figure: 20
-        frame: wide
-        rotation: 270
-      - brightness: white
-        elements_changed: []
-        figure: 10
-        frame: wide
-        rotation: 0
-    - name: C
-      parameters:
-      - brightness: white
-        elements_changed: []
-        figure: 14
-        frame: wide
-        rotation: 180
-      - brightness: white
-        elements_changed: []
-        figure: 15
-        frame: narrow
-        rotation: 90
-      - brightness: gray
-        elements_changed: []
-        figure: 1
-        frame: wide
-        rotation: 90
-      - brightness: slate
-        elements_changed: []
-        figure: 16
-        frame: thin
-        rotation: 270
-    - name: D2
-      parameters:
-      - brightness: gray
-        elements_changed: []
-        figure: 1
-        frame: wide
-        rotation: 90
-      - brightness: white
-        elements_changed: []
-        figure: 14
-        frame: wide
-        rotation: 180
-      - brightness: slate
-        elements_changed:
-        - [frame, 2]
-        figure: 16
-        frame: wide
-        rotation: 270
-      - brightness: gray
-        elements_changed:
-        - [frame, 1]
-        - [brightness, 1]
-        figure: 15
-        frame: wide
-        rotation: 90
-    - name: D4
-      parameters:
-      - brightness: gray
-        elements_changed: []
-        figure: 1
-        frame: wide
-        rotation: 90
-      - brightness: white
-        elements_changed: []
-        figure: 14
-        frame: wide
-        rotation: 180
-      - brightness: slate
-        elements_changed: []
-        figure: 16
-        frame: thin
-        rotation: 270
-      - brightness: gray
-        elements_changed:
-        - [rotation, -1]
-        - [brightness, 1]
-        figure: 15
-        frame: narrow
-        rotation: 0
-    - name: D5
-      parameters:
-      - brightness: gray
-        elements_changed: []
-        figure: 1
-        frame: wide
-        rotation: 90
-      - brightness: white
-        elements_changed: []
-        figure: 14
-        frame: wide
-        rotation: 180
-      - brightness: slate
-        elements_changed: []
-        figure: 16
-        frame: thin
-        rotation: 270
-      - brightness: gray
-        elements_changed:
-        - [brightness, 1]
-        figure: 15
-        frame: narrow
-        rotation: 90
-    - name: D1
-      parameters:
-      - brightness: gray
-        elements_changed: []
-        figure: 1
-        frame: wide
-        rotation: 90
-      - brightness: white
-        elements_changed: []
-        figure: 14
-        frame: wide
-        rotation: 180
-      - brightness: slate
-        elements_changed:
-        - [frame, 2]
-        figure: 16
-        frame: wide
-        rotation: 270
-      - brightness: gray
-        elements_changed:
-        - [rotation, -1]
-        - [brightness, 1]
-        figure: 15
-        frame: narrow
-        rotation: 0
-    - name: D3
-      parameters:
-      - brightness: gray
-        elements_changed: []
-        figure: 1
-        frame: wide
-        rotation: 90
-      - brightness: white
-        elements_changed: []
-        figure: 14
-        frame: wide
-        rotation: 180
-      - brightness: slate
-        elements_changed:
-        - [frame, 2]
-        figure: 16
-        frame: wide
-        rotation: 270
-      - brightness: gray
-        elements_changed:
-        - [brightness, 1]
-        figure: 15
-        frame: narrow
-        rotation: 90
-    - name: D6
-      parameters:
-      - brightness: gray
-        elements_changed: []
-        figure: 1
-        frame: wide
-        rotation: 90
-      - brightness: white
-        elements_changed: []
-        figure: 14
-        frame: wide
-        rotation: 180
-      - brightness: slate
-        elements_changed: []
-        figure: 16
-        frame: thin
-        rotation: 270
-      - brightness: white
-        elements_changed: []
-        figure: 15
-        frame: narrow
-        rotation: 90
-    rel: 2
-    time: 120
-    tip: ''
-    tip_time: 4
-    type: trial
-    wait: 5
-  - exp: experiment
-    feedb: 0
-    matrix_info:
-    - name: A
-      parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 10
-        frame: wide
-        rotation: 90
-      - brightness: white
-        elements_changed: []
-        figure: 20
-        frame: narrow
-        rotation: 0
-      - brightness: white
-        elements_changed: []
-        figure: 17
-        frame: thin
-        rotation: 0
-      - brightness: gray
-        elements_changed: []
-        figure: 18
-        frame: wide
-        rotation: 180
-    - name: B
-      parameters:
-      - brightness: white
-        elements_changed:
-        - [rotation, 2]
-        figure: 17
-        frame: thin
-        rotation: 180
-      - brightness: white
-        elements_changed:
-        - [brightness, -1]
-        - [rotation, -2]
-        figure: 18
-        frame: wide
-        rotation: 0
-      - brightness: gray
-        elements_changed:
-        - [brightness, 1]
-        - [frame, 1]
-        figure: 20
-        frame: wide
-        rotation: 0
-      - brightness: slate
-        elements_changed:
-        - [frame, -1]
-        figure: 10
-        frame: narrow
-        rotation: 90
-    - name: C
-      parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 4
-        frame: wide
-        rotation: 270
-      - brightness: gray
-        elements_changed: []
-        figure: 9
-        frame: thin
-        rotation: 180
-      - brightness: white
-        elements_changed: []
-        figure: 15
-        frame: thin
-        rotation: 90
-      - brightness: slate
-        elements_changed: []
-        figure: 1
-        frame: wide
-        rotation: 270
-    - name: D1
-      parameters:
-      - brightness: white
-        elements_changed:
-        - [rotation, 2]
-        figure: 15
-        frame: thin
-        rotation: 270
-      - brightness: slate
-        elements_changed:
-        - [frame, -1]
-        figure: 4
-        frame: narrow
-        rotation: 270
-      - brightness: gray
-        elements_changed:
-        - [brightness, -1]
-        - [rotation, -2]
-        figure: 1
-        frame: wide
-        rotation: 90
-      - brightness: slate
-        elements_changed:
-        - [brightness, 1]
-        - [frame, 1]
-        figure: 9
-        frame: narrow
-        rotation: 180
-    - name: D5
-      parameters:
-      - brightness: white
-        elements_changed: []
-        figure: 15
-        frame: thin
-        rotation: 90
-      - brightness: slate
-        elements_changed: []
-        figure: 4
-        frame: wide
-        rotation: 270
-      - brightness: slate
-        elements_changed: []
-        figure: 1
-        frame: wide
-        rotation: 270
-      - brightness: gray
-        elements_changed:
-        - [frame, 1]
-        figure: 9
-        frame: narrow
-        rotation: 180
-    - name: D4
-      parameters:
-      - brightness: white
-        elements_changed: []
-        figure: 15
-        frame: thin
-        rotation: 90
-      - brightness: slate
-        elements_changed: []
-        figure: 4
-        frame: wide
-        rotation: 270
-      - brightness: slate
-        elements_changed: []
-        figure: 1
-        frame: wide
-        rotation: 270
-      - brightness: slate
-        elements_changed:
-        - [brightness, 1]
-        - [frame, 1]
-        figure: 9
-        frame: narrow
-        rotation: 180
-    - name: D2
-      parameters:
-      - brightness: white
-        elements_changed:
-        - [rotation, 2]
-        figure: 15
-        frame: thin
-        rotation: 270
-      - brightness: white
-        elements_changed:
-        - [brightness, -2]
-        figure: 4
-        frame: wide
-        rotation: 270
-      - brightness: gray
-        elements_changed:
-        - [brightness, -1]
-        - [rotation, -2]
-        figure: 1
-        frame: wide
-        rotation: 90
-      - brightness: slate
-        elements_changed:
-        - [brightness, 1]
-        - [frame, 1]
-        figure: 9
-        frame: narrow
-        rotation: 180
-    - name: D3
-      parameters:
-      - brightness: white
-        elements_changed:
-        - [rotation, 2]
-        figure: 15
-        frame: thin
-        rotation: 270
-      - brightness: slate
-        elements_changed:
-        - [frame, -1]
-        figure: 4
-        frame: narrow
-        rotation: 270
-      - brightness: gray
-        elements_changed:
-        - [brightness, -1]
-        - [rotation, -2]
-        figure: 1
-        frame: wide
-        rotation: 90
-      - brightness: slate
-        elements_changed:
-        - [brightness, 1]
-        figure: 9
-        frame: thin
-        rotation: 180
-    - name: D6
-      parameters:
-      - brightness: white
-        elements_changed: []
-        figure: 15
-        frame: thin
-        rotation: 90
-      - brightness: slate
-        elements_changed: []
-        figure: 4
-        frame: wide
-        rotation: 270
-      - brightness: slate
-        elements_changed: []
-        figure: 1
-        frame: wide
-        rotation: 270
-      - brightness: gray
-        elements_changed: []
-        figure: 9
-        frame: thin
-        rotation: 180
-    rel: 4
-    time: 120
-    tip: ''
-    tip_time: 4
-    type: trial
-    wait: 5
-  - exp: experiment
-    feedb: 0
-    matrix_info:
-    - name: A
-      parameters:
-      - brightness: gray
-        elements_changed: []
-        figure: 15
-        frame: narrow
-        rotation: 0
-      - brightness: white
-        elements_changed: []
-        figure: 14
-        frame: thin
-        rotation: 180
-      - brightness: white
-        elements_changed: []
-        figure: 1
-        frame: wide
-        rotation: 180
-      - brightness: slate
-        elements_changed: []
-        figure: 2
-        frame: thin
-        rotation: 270
-    - name: B
-      parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 2
-        frame: thin
-        rotation: 270
-      - brightness: white
-        elements_changed:
-        - [frame, -1]
-        - [rotation, 2]
-        - [brightness, -1]
-        figure: 15
-        frame: thin
-        rotation: 180
-      - brightness: white
-        elements_changed:
-        - [frame, 1]
-        - [rotation, 1]
-        figure: 14
-        frame: narrow
-        rotation: 270
-      - brightness: white
-        elements_changed: []
-        figure: 1
-        frame: wide
-        rotation: 180
-    - name: C
-      parameters:
-      - brightness: gray
-        elements_changed: []
-        figure: 13
-        frame: wide
-        rotation: 90
-      - brightness: white
-        elements_changed: []
-        figure: 4
-        frame: narrow
-        rotation: 180
-      - brightness: white
-        elements_changed: []
-        figure: 5
-        frame: wide
-        rotation: 90
-      - brightness: slate
-        elements_changed: []
-        figure: 3
-        frame: thin
-        rotation: 270
-    - name: D4
-      parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 3
-        frame: thin
-        rotation: 270
-      - brightness: gray
-        elements_changed: []
-        figure: 13
-        frame: wide
-        rotation: 90
-      - brightness: white
-        elements_changed:
-        - [frame, 1]
-        - [rotation, 1]
-        figure: 4
-        frame: wide
-        rotation: 270
-      - brightness: white
-        elements_changed: []
-        figure: 5
-        frame: wide
-        rotation: 90
-    - name: D6
-      parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 3
-        frame: thin
-        rotation: 270
-      - brightness: gray
-        elements_changed: []
-        figure: 13
-        frame: wide
-        rotation: 90
-      - brightness: white
-        elements_changed: []
-        figure: 4
-        frame: narrow
-        rotation: 180
-      - brightness: white
-        elements_changed: []
-        figure: 5
-        frame: wide
-        rotation: 90
-    - name: D5
-      parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 3
-        frame: thin
-        rotation: 270
-      - brightness: gray
-        elements_changed: []
-        figure: 13
-        frame: wide
-        rotation: 90
-      - brightness: white
-        elements_changed:
-        - [rotation, 1]
-        figure: 4
-        frame: narrow
-        rotation: 270
-      - brightness: white
-        elements_changed: []
-        figure: 5
-        frame: wide
-        rotation: 90
-    - name: D2
-      parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 3
-        frame: thin
-        rotation: 270
-      - brightness: white
-        elements_changed:
-        - [frame, -1]
-        - [rotation, 2]
-        - [brightness, -1]
-        figure: 13
-        frame: narrow
-        rotation: 270
-      - brightness: slate
-        elements_changed:
-        - [frame, 1]
-        - [brightness, 2]
-        figure: 4
-        frame: wide
-        rotation: 180
-      - brightness: white
-        elements_changed: []
-        figure: 5
-        frame: wide
-        rotation: 90
-    - name: D3
-      parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 3
-        frame: thin
-        rotation: 270
-      - brightness: white
-        elements_changed:
-        - [rotation, 2]
-        - [brightness, -1]
-        figure: 13
-        frame: wide
-        rotation: 270
-      - brightness: white
-        elements_changed:
-        - [frame, 1]
-        - [rotation, 1]
-        figure: 4
-        frame: wide
-        rotation: 270
-      - brightness: white
-        elements_changed: []
-        figure: 5
-        frame: wide
-        rotation: 90
-    - name: D1
-      parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 3
-        frame: thin
-        rotation: 270
-      - brightness: white
-        elements_changed:
-        - [frame, -1]
-        - [rotation, 2]
-        - [brightness, -1]
-        figure: 13
-        frame: narrow
-        rotation: 270
-      - brightness: white
-        elements_changed:
-        - [frame, 1]
-        - [rotation, 1]
-        figure: 4
-        frame: wide
-        rotation: 270
-      - brightness: white
-        elements_changed: []
-        figure: 5
-        frame: wide
         rotation: 90
     rel: 2
     time: 120
@@ -2807,219 +1645,215 @@ list_of_blocks:
       parameters:
       - brightness: white
         elements_changed: []
-        figure: 3
-        frame: narrow
-        rotation: 90
+        figure: 11
+        frame: thin
+        rotation: 0
       - brightness: slate
         elements_changed: []
-        figure: 16
-        frame: wide
+        figure: 12
+        frame: thin
         rotation: 90
-      - brightness: gray
-        elements_changed: []
-        figure: 19
-        frame: wide
-        rotation: 0
       - brightness: white
         elements_changed: []
         figure: 9
-        frame: thin
+        frame: narrow
         rotation: 180
+      - brightness: gray
+        elements_changed: []
+        figure: 16
+        frame: wide
+        rotation: 0
     - name: B
       parameters:
       - brightness: white
         elements_changed:
         - [frame, -2]
-        - [brightness, -2]
+        - [brightness, -1]
         figure: 16
         frame: thin
-        rotation: 90
-      - brightness: gray
+        rotation: 0
+      - brightness: white
         elements_changed: []
-        figure: 19
-        frame: wide
+        figure: 11
+        frame: thin
         rotation: 0
       - brightness: slate
-        elements_changed:
-        - [brightness, 2]
-        figure: 9
+        elements_changed: []
+        figure: 12
         frame: thin
-        rotation: 180
-      - brightness: gray
-        elements_changed:
-        - [brightness, 1]
-        figure: 3
-        frame: narrow
         rotation: 90
+      - brightness: white
+        elements_changed:
+        - [rotation, -2]
+        figure: 9
+        frame: narrow
+        rotation: 0
     - name: C
       parameters:
-      - brightness: gray
+      - brightness: white
         elements_changed: []
-        figure: 2
+        figure: 15
+        frame: narrow
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 7
+        frame: thin
+        rotation: 90
+      - brightness: white
+        elements_changed: []
+        figure: 20
         frame: narrow
         rotation: 270
       - brightness: slate
         elements_changed: []
-        figure: 20
-        frame: wide
-        rotation: 0
-      - brightness: gray
-        elements_changed: []
         figure: 6
         frame: wide
-        rotation: 0
-      - brightness: white
-        elements_changed: []
-        figure: 8
-        frame: thin
-        rotation: 270
-    - name: D5
-      parameters:
-      - brightness: white
-        elements_changed: []
-        figure: 8
-        frame: thin
-        rotation: 270
-      - brightness: gray
-        elements_changed: []
-        figure: 6
-        frame: wide
-        rotation: 0
-      - brightness: slate
-        elements_changed:
-        - [brightness, 1]
-        figure: 2
-        frame: narrow
-        rotation: 270
-      - brightness: slate
-        elements_changed: []
-        figure: 20
-        frame: wide
-        rotation: 0
+        rotation: 180
     - name: D1
       parameters:
       - brightness: slate
-        elements_changed:
-        - [brightness, 2]
-        figure: 8
-        frame: thin
-        rotation: 270
-      - brightness: gray
         elements_changed: []
-        figure: 6
-        frame: wide
-        rotation: 0
-      - brightness: slate
-        elements_changed:
-        - [brightness, 1]
-        figure: 2
-        frame: narrow
-        rotation: 270
-      - brightness: white
+        figure: 7
+        frame: thin
+        rotation: 90
+      - brightness: gray
         elements_changed:
         - [frame, -2]
-        - [brightness, -2]
-        figure: 20
+        - [brightness, -1]
+        figure: 6
         frame: thin
-        rotation: 0
-    - name: D6
-      parameters:
+        rotation: 180
       - brightness: white
         elements_changed: []
-        figure: 8
-        frame: thin
-        rotation: 270
-      - brightness: gray
-        elements_changed: []
-        figure: 6
-        frame: wide
-        rotation: 0
-      - brightness: gray
-        elements_changed: []
-        figure: 2
+        figure: 15
         frame: narrow
-        rotation: 270
-      - brightness: slate
-        elements_changed: []
+        rotation: 90
+      - brightness: white
+        elements_changed:
+        - [rotation, -2]
         figure: 20
-        frame: wide
-        rotation: 0
+        frame: narrow
+        rotation: 90
     - name: D2
       parameters:
-      - brightness: white
-        elements_changed:
-        - [frame, 2]
-        figure: 8
-        frame: wide
-        rotation: 270
-      - brightness: gray
+      - brightness: slate
         elements_changed: []
+        figure: 7
+        frame: thin
+        rotation: 90
+      - brightness: gray
+        elements_changed:
+        - [frame, -2]
+        - [brightness, -1]
         figure: 6
-        frame: wide
-        rotation: 0
+        frame: thin
+        rotation: 180
+      - brightness: white
+        elements_changed: []
+        figure: 15
+        frame: narrow
+        rotation: 90
       - brightness: slate
         elements_changed:
-        - [brightness, 1]
-        figure: 2
+        - [brightness, 2]
+        figure: 20
         frame: narrow
         rotation: 270
-      - brightness: white
-        elements_changed:
-        - [frame, -2]
-        - [brightness, -2]
-        figure: 20
-        frame: thin
-        rotation: 0
     - name: D4
       parameters:
+      - brightness: slate
+        elements_changed: []
+        figure: 7
+        frame: thin
+        rotation: 90
+      - brightness: gray
+        elements_changed:
+        - [frame, -2]
+        - [brightness, -1]
+        figure: 6
+        frame: thin
+        rotation: 180
       - brightness: white
         elements_changed: []
-        figure: 8
-        frame: thin
+        figure: 15
+        frame: narrow
+        rotation: 90
+      - brightness: white
+        elements_changed: []
+        figure: 20
+        frame: narrow
         rotation: 270
-      - brightness: gray
+    - name: D6
+      parameters:
+      - brightness: slate
+        elements_changed: []
+        figure: 7
+        frame: thin
+        rotation: 90
+      - brightness: slate
         elements_changed: []
         figure: 6
         frame: wide
-        rotation: 0
-      - brightness: gray
+        rotation: 180
+      - brightness: white
         elements_changed: []
-        figure: 2
+        figure: 15
+        frame: narrow
+        rotation: 90
+      - brightness: white
+        elements_changed: []
+        figure: 20
         frame: narrow
         rotation: 270
-      - brightness: white
-        elements_changed:
-        - [frame, -2]
-        - [brightness, -2]
-        figure: 20
-        frame: thin
-        rotation: 0
     - name: D3
       parameters:
       - brightness: slate
-        elements_changed:
-        - [brightness, 2]
-        figure: 8
-        frame: thin
-        rotation: 270
-      - brightness: gray
         elements_changed: []
+        figure: 7
+        frame: thin
+        rotation: 90
+      - brightness: gray
+        elements_changed:
+        - [brightness, -1]
         figure: 6
         frame: wide
-        rotation: 0
-      - brightness: slate
-        elements_changed:
-        - [brightness, 1]
-        figure: 2
+        rotation: 180
+      - brightness: white
+        elements_changed: []
+        figure: 15
         frame: narrow
-        rotation: 270
+        rotation: 90
       - brightness: white
         elements_changed:
-        - [brightness, -2]
+        - [rotation, -2]
         figure: 20
+        frame: narrow
+        rotation: 90
+    - name: D5
+      parameters:
+      - brightness: slate
+        elements_changed: []
+        figure: 7
+        frame: thin
+        rotation: 90
+      - brightness: gray
+        elements_changed:
+        - [brightness, -1]
+        figure: 6
         frame: wide
-        rotation: 0
-    rel: 3
+        rotation: 180
+      - brightness: white
+        elements_changed: []
+        figure: 15
+        frame: narrow
+        rotation: 90
+      - brightness: white
+        elements_changed: []
+        figure: 20
+        frame: narrow
+        rotation: 270
+    rel: 2
     time: 120
     tip: ''
     tip_time: 4
@@ -3030,478 +1864,240 @@ list_of_blocks:
     matrix_info:
     - name: A
       parameters:
-      - brightness: gray
-        elements_changed: []
-        figure: 13
-        frame: thin
-        rotation: 0
-      - brightness: white
-        elements_changed: []
-        figure: 4
-        frame: narrow
-        rotation: 90
-      - brightness: gray
-        elements_changed: []
-        figure: 8
-        frame: thin
-        rotation: 90
       - brightness: slate
         elements_changed: []
         figure: 1
+        frame: narrow
+        rotation: 270
+      - brightness: slate
+        elements_changed: []
+        figure: 2
+        frame: narrow
+        rotation: 0
+      - brightness: white
+        elements_changed: []
+        figure: 18
         frame: wide
         rotation: 270
+      - brightness: white
+        elements_changed: []
+        figure: 8
+        frame: thin
+        rotation: 0
     - name: B
       parameters:
-      - brightness: white
+      - brightness: gray
         elements_changed:
-        - [brightness, -2]
-        - [frame, -2]
-        - [rotation, -2]
-        figure: 1
-        frame: thin
+        - [rotation, 1]
+        - [frame, 1]
+        - [brightness, -1]
+        figure: 2
+        frame: wide
         rotation: 90
       - brightness: slate
         elements_changed:
-        - [frame, 1]
-        - [brightness, 1]
-        - [rotation, -1]
+        - [rotation, 2]
+        - [brightness, 2]
+        - [frame, 2]
         figure: 8
+        frame: wide
+        rotation: 180
+      - brightness: slate
+        elements_changed:
+        - [frame, -1]
+        figure: 1
+        frame: thin
+        rotation: 270
+      - brightness: white
+        elements_changed:
+        - [frame, -2]
+        - [rotation, -2]
+        figure: 18
+        frame: thin
+        rotation: 90
+    - name: C
+      parameters:
+      - brightness: slate
+        elements_changed: []
+        figure: 16
         frame: narrow
-        rotation: 0
+        rotation: 180
       - brightness: gray
         elements_changed: []
+        figure: 15
+        frame: thin
+        rotation: 0
+      - brightness: white
+        elements_changed: []
+        figure: 13
+        frame: wide
+        rotation: 180
+      - brightness: white
+        elements_changed: []
+        figure: 20
+        frame: thin
+        rotation: 0
+    - name: D3
+      parameters:
+      - brightness: slate
+        elements_changed:
+        - [rotation, 2]
+        - [brightness, 2]
+        - [frame, 2]
+        figure: 20
+        frame: wide
+        rotation: 180
+      - brightness: white
+        elements_changed:
+        - [frame, -2]
+        - [rotation, -2]
         figure: 13
         frame: thin
         rotation: 0
       - brightness: slate
         elements_changed:
-        - [brightness, 2]
-        - [rotation, 1]
-        figure: 4
-        frame: narrow
-        rotation: 180
-    - name: C
-      parameters:
-      - brightness: gray
-        elements_changed: []
-        figure: 17
+        - [frame, -1]
+        figure: 16
         frame: thin
-        rotation: 90
+        rotation: 180
+      - brightness: white
+        elements_changed:
+        - [frame, 1]
+        - [brightness, -1]
+        figure: 15
+        frame: narrow
+        rotation: 0
+    - name: D6
+      parameters:
       - brightness: white
         elements_changed: []
         figure: 20
-        frame: narrow
-        rotation: 90
-      - brightness: gray
+        frame: thin
+        rotation: 0
+      - brightness: white
         elements_changed: []
-        figure: 10
-        frame: narrow
-        rotation: 90
-      - brightness: slate
-        elements_changed: []
-        figure: 3
+        figure: 13
         frame: wide
         rotation: 180
-    - name: D3
-      parameters:
       - brightness: slate
-        elements_changed:
-        - [brightness, 1]
-        - [rotation, -1]
-        figure: 10
+        elements_changed: []
+        figure: 16
         frame: narrow
-        rotation: 0
+        rotation: 180
       - brightness: gray
         elements_changed: []
-        figure: 17
+        figure: 15
         frame: thin
-        rotation: 90
+        rotation: 0
+    - name: D4
+      parameters:
+      - brightness: white
+        elements_changed: []
+        figure: 20
+        frame: thin
+        rotation: 0
       - brightness: white
         elements_changed:
-        - [brightness, -2]
         - [frame, -2]
         - [rotation, -2]
-        figure: 3
+        figure: 13
         frame: thin
         rotation: 0
       - brightness: slate
-        elements_changed:
-        - [brightness, 2]
-        - [rotation, 1]
-        figure: 20
+        elements_changed: []
+        figure: 16
         frame: narrow
         rotation: 180
+      - brightness: gray
+        elements_changed: []
+        figure: 15
+        frame: thin
+        rotation: 0
     - name: D5
       parameters:
-      - brightness: gray
+      - brightness: white
         elements_changed: []
-        figure: 10
-        frame: narrow
-        rotation: 90
-      - brightness: gray
-        elements_changed: []
-        figure: 17
+        figure: 20
         frame: thin
-        rotation: 90
-      - brightness: slate
-        elements_changed: []
-        figure: 3
-        frame: wide
-        rotation: 180
+        rotation: 0
       - brightness: white
         elements_changed:
-        - [rotation, 1]
-        figure: 20
+        - [frame, -2]
+        figure: 13
+        frame: thin
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 16
         frame: narrow
         rotation: 180
+      - brightness: gray
+        elements_changed: []
+        figure: 15
+        frame: thin
+        rotation: 0
     - name: D1
       parameters:
       - brightness: slate
         elements_changed:
-        - [frame, 1]
-        - [brightness, 1]
-        - [rotation, -1]
-        figure: 10
+        - [rotation, 2]
+        - [brightness, 2]
+        - [frame, 2]
+        figure: 20
         frame: wide
-        rotation: 0
-      - brightness: gray
-        elements_changed: []
-        figure: 17
-        frame: thin
-        rotation: 90
+        rotation: 180
       - brightness: white
         elements_changed:
-        - [brightness, -2]
         - [frame, -2]
         - [rotation, -2]
-        figure: 3
+        figure: 13
         frame: thin
         rotation: 0
       - brightness: slate
         elements_changed:
-        - [brightness, 2]
-        - [rotation, 1]
-        figure: 20
-        frame: narrow
-        rotation: 180
-    - name: D4
-      parameters:
-      - brightness: gray
-        elements_changed: []
-        figure: 10
-        frame: narrow
-        rotation: 90
-      - brightness: gray
-        elements_changed: []
-        figure: 17
+        - [frame, -1]
+        figure: 16
         frame: thin
-        rotation: 90
-      - brightness: slate
-        elements_changed: []
-        figure: 3
-        frame: wide
-        rotation: 180
-      - brightness: slate
-        elements_changed:
-        - [brightness, 2]
-        - [rotation, 1]
-        figure: 20
-        frame: narrow
-        rotation: 180
-    - name: D6
-      parameters:
-      - brightness: gray
-        elements_changed: []
-        figure: 10
-        frame: narrow
-        rotation: 90
-      - brightness: gray
-        elements_changed: []
-        figure: 17
-        frame: thin
-        rotation: 90
-      - brightness: slate
-        elements_changed: []
-        figure: 3
-        frame: wide
         rotation: 180
       - brightness: white
-        elements_changed: []
-        figure: 20
+        elements_changed:
+        - [rotation, 1]
+        - [frame, 1]
+        - [brightness, -1]
+        figure: 15
         frame: narrow
         rotation: 90
     - name: D2
       parameters:
       - brightness: slate
         elements_changed:
-        - [frame, 1]
-        - [brightness, 1]
+        - [rotation, 2]
+        - [brightness, 2]
+        - [frame, 2]
+        figure: 20
+        frame: wide
+        rotation: 180
+      - brightness: white
+        elements_changed:
+        - [frame, -2]
+        - [rotation, -2]
+        figure: 13
+        frame: thin
+        rotation: 0
+      - brightness: slate
+        elements_changed:
         - [rotation, -1]
-        figure: 10
-        frame: wide
-        rotation: 0
-      - brightness: gray
-        elements_changed: []
-        figure: 17
-        frame: thin
+        figure: 16
+        frame: narrow
         rotation: 90
       - brightness: white
         elements_changed:
-        - [brightness, -2]
-        - [frame, -2]
-        - [rotation, -2]
-        figure: 3
-        frame: thin
-        rotation: 0
-      - brightness: white
-        elements_changed:
-        - [frame, -1]
         - [rotation, 1]
-        figure: 20
-        frame: thin
-        rotation: 180
-    rel: 3
-    time: 120
-    tip: ''
-    tip_time: 4
-    type: trial
-    wait: 5
-  - exp: experiment
-    feedb: 0
-    matrix_info:
-    - name: A
-      parameters:
-      - brightness: gray
-        elements_changed: []
-        figure: 18
-        frame: wide
-        rotation: 90
-      - brightness: gray
-        elements_changed: []
-        figure: 4
-        frame: wide
-        rotation: 180
-      - brightness: slate
-        elements_changed: []
-        figure: 3
-        frame: thin
-        rotation: 0
-      - brightness: white
-        elements_changed: []
-        figure: 10
-        frame: thin
-        rotation: 90
-    - name: B
-      parameters:
-      - brightness: white
-        elements_changed:
-        - [frame, 2]
-        - [brightness, -2]
-        figure: 3
-        frame: wide
-        rotation: 0
-      - brightness: slate
-        elements_changed:
-        - [frame, -2]
-        - [brightness, 1]
-        figure: 18
-        frame: thin
-        rotation: 90
-      - brightness: slate
-        elements_changed:
         - [frame, 1]
-        - [rotation, 1]
-        - [brightness, 2]
-        figure: 10
-        frame: narrow
-        rotation: 180
-      - brightness: gray
-        elements_changed:
-        - [frame, -1]
-        figure: 4
-        frame: narrow
-        rotation: 180
-    - name: C
-      parameters:
-      - brightness: gray
-        elements_changed: []
-        figure: 6
-        frame: wide
-        rotation: 180
-      - brightness: gray
-        elements_changed: []
-        figure: 20
-        frame: wide
-        rotation: 180
-      - brightness: slate
-        elements_changed: []
+        - [brightness, -1]
         figure: 15
-        frame: thin
-        rotation: 0
-      - brightness: white
-        elements_changed: []
-        figure: 7
         frame: narrow
-        rotation: 0
-    - name: D4
-      parameters:
-      - brightness: slate
-        elements_changed:
-        - [frame, 1]
-        - [rotation, 1]
-        - [brightness, 2]
-        figure: 7
-        frame: wide
         rotation: 90
-      - brightness: gray
-        elements_changed: []
-        figure: 6
-        frame: wide
-        rotation: 180
-      - brightness: gray
-        elements_changed: []
-        figure: 20
-        frame: wide
-        rotation: 180
-      - brightness: slate
-        elements_changed: []
-        figure: 15
-        frame: thin
-        rotation: 0
-    - name: D3
-      parameters:
-      - brightness: white
-        elements_changed:
-        - [frame, 1]
-        - [rotation, 1]
-        figure: 7
-        frame: wide
-        rotation: 90
-      - brightness: slate
-        elements_changed:
-        - [frame, -2]
-        - [brightness, 1]
-        figure: 6
-        frame: thin
-        rotation: 180
-      - brightness: gray
-        elements_changed:
-        - [frame, -1]
-        figure: 20
-        frame: narrow
-        rotation: 180
-      - brightness: white
-        elements_changed:
-        - [frame, 2]
-        - [brightness, -2]
-        figure: 15
-        frame: wide
-        rotation: 0
-    - name: D1
-      parameters:
-      - brightness: slate
-        elements_changed:
-        - [frame, 1]
-        - [rotation, 1]
-        - [brightness, 2]
-        figure: 7
-        frame: wide
-        rotation: 90
-      - brightness: slate
-        elements_changed:
-        - [frame, -2]
-        - [brightness, 1]
-        figure: 6
-        frame: thin
-        rotation: 180
-      - brightness: gray
-        elements_changed:
-        - [frame, -1]
-        figure: 20
-        frame: narrow
-        rotation: 180
-      - brightness: white
-        elements_changed:
-        - [frame, 2]
-        - [brightness, -2]
-        figure: 15
-        frame: wide
-        rotation: 0
-    - name: D5
-      parameters:
-      - brightness: white
-        elements_changed: []
-        figure: 7
-        frame: narrow
-        rotation: 0
-      - brightness: gray
-        elements_changed: []
-        figure: 6
-        frame: wide
-        rotation: 180
-      - brightness: gray
-        elements_changed: []
-        figure: 20
-        frame: wide
-        rotation: 180
-      - brightness: slate
-        elements_changed:
-        - [frame, 2]
-        figure: 15
-        frame: wide
-        rotation: 0
-    - name: D6
-      parameters:
-      - brightness: white
-        elements_changed: []
-        figure: 7
-        frame: narrow
-        rotation: 0
-      - brightness: gray
-        elements_changed: []
-        figure: 6
-        frame: wide
-        rotation: 180
-      - brightness: gray
-        elements_changed: []
-        figure: 20
-        frame: wide
-        rotation: 180
-      - brightness: slate
-        elements_changed: []
-        figure: 15
-        frame: thin
-        rotation: 0
-    - name: D2
-      parameters:
-      - brightness: slate
-        elements_changed:
-        - [frame, 1]
-        - [rotation, 1]
-        - [brightness, 2]
-        figure: 7
-        frame: wide
-        rotation: 90
-      - brightness: slate
-        elements_changed:
-        - [frame, -2]
-        - [brightness, 1]
-        figure: 6
-        frame: thin
-        rotation: 180
-      - brightness: gray
-        elements_changed:
-        - [rotation, -2]
-        figure: 20
-        frame: wide
-        rotation: 0
-      - brightness: white
-        elements_changed:
-        - [frame, 2]
-        - [brightness, -2]
-        figure: 15
-        frame: wide
-        rotation: 0
     rel: 4
     time: 120
     tip: ''
@@ -3513,237 +2109,228 @@ list_of_blocks:
     matrix_info:
     - name: A
       parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 18
-        frame: narrow
-        rotation: 180
       - brightness: gray
         elements_changed: []
         figure: 8
         frame: narrow
         rotation: 90
-      - brightness: gray
-        elements_changed: []
-        figure: 5
-        frame: wide
-        rotation: 0
       - brightness: white
         elements_changed: []
-        figure: 13
+        figure: 16
+        frame: thin
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 11
+        frame: wide
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 6
         frame: thin
         rotation: 0
     - name: B
       parameters:
-      - brightness: white
-        elements_changed:
-        - [frame, -2]
-        - [brightness, -1]
-        - [rotation, 1]
-        figure: 5
-        frame: thin
-        rotation: 90
       - brightness: slate
         elements_changed: []
-        figure: 18
-        frame: narrow
+        figure: 6
+        frame: thin
+        rotation: 0
+      - brightness: gray
+        elements_changed:
+        - [brightness, -1]
+        figure: 11
+        frame: wide
         rotation: 180
       - brightness: slate
         elements_changed:
-        - [frame, 2]
-        - [rotation, 2]
-        - [brightness, 2]
-        figure: 13
-        frame: wide
-        rotation: 180
+        - [brightness, 1]
+        - [rotation, -1]
+        figure: 8
+        frame: narrow
+        rotation: 0
       - brightness: slate
         elements_changed:
         - [frame, 1]
-        - [brightness, 1]
-        figure: 8
-        frame: wide
-        rotation: 90
+        - [brightness, 2]
+        - [rotation, 1]
+        figure: 16
+        frame: narrow
+        rotation: 180
     - name: C
       parameters:
-      - brightness: slate
+      - brightness: gray
         elements_changed: []
-        figure: 4
-        frame: wide
-        rotation: 180
-      - brightness: white
-        elements_changed: []
-        figure: 2
+        figure: 18
         frame: narrow
         rotation: 90
-      - brightness: slate
-        elements_changed: []
-        figure: 12
-        frame: wide
-        rotation: 0
       - brightness: white
         elements_changed: []
-        figure: 3
+        figure: 19
         frame: thin
         rotation: 0
+      - brightness: slate
+        elements_changed: []
+        figure: 13
+        frame: wide
+        rotation: 270
+      - brightness: slate
+        elements_changed: []
+        figure: 9
+        frame: thin
+        rotation: 90
+    - name: D1
+      parameters:
+      - brightness: gray
+        elements_changed:
+        - [brightness, -1]
+        figure: 13
+        frame: wide
+        rotation: 270
+      - brightness: slate
+        elements_changed:
+        - [brightness, 1]
+        - [rotation, -1]
+        figure: 18
+        frame: narrow
+        rotation: 0
+      - brightness: slate
+        elements_changed: []
+        figure: 9
+        frame: thin
+        rotation: 90
+      - brightness: slate
+        elements_changed:
+        - [frame, 1]
+        - [brightness, 2]
+        - [rotation, 1]
+        figure: 19
+        frame: narrow
+        rotation: 90
     - name: D6
       parameters:
       - brightness: slate
         elements_changed: []
-        figure: 12
+        figure: 13
         frame: wide
-        rotation: 0
-      - brightness: white
+        rotation: 270
+      - brightness: gray
         elements_changed: []
-        figure: 3
-        frame: thin
-        rotation: 0
-      - brightness: white
-        elements_changed: []
-        figure: 2
+        figure: 18
         frame: narrow
         rotation: 90
       - brightness: slate
         elements_changed: []
-        figure: 4
-        frame: wide
-        rotation: 180
+        figure: 9
+        frame: thin
+        rotation: 90
+      - brightness: white
+        elements_changed: []
+        figure: 19
+        frame: thin
+        rotation: 0
     - name: D4
       parameters:
       - brightness: slate
         elements_changed: []
-        figure: 12
+        figure: 13
         frame: wide
-        rotation: 0
+        rotation: 270
       - brightness: slate
         elements_changed:
-        - [frame, 2]
-        - [rotation, 2]
-        - [brightness, 2]
-        figure: 3
-        frame: wide
-        rotation: 180
+        - [brightness, 1]
+        - [rotation, -1]
+        figure: 18
+        frame: narrow
+        rotation: 0
+      - brightness: slate
+        elements_changed: []
+        figure: 9
+        frame: thin
+        rotation: 90
       - brightness: white
         elements_changed: []
-        figure: 2
+        figure: 19
+        frame: thin
+        rotation: 0
+    - name: D5
+      parameters:
+      - brightness: slate
+        elements_changed: []
+        figure: 13
+        frame: wide
+        rotation: 270
+      - brightness: slate
+        elements_changed:
+        - [brightness, 1]
+        figure: 18
         frame: narrow
         rotation: 90
       - brightness: slate
         elements_changed: []
-        figure: 4
+        figure: 9
+        frame: thin
+        rotation: 90
+      - brightness: white
+        elements_changed: []
+        figure: 19
+        frame: thin
+        rotation: 0
+    - name: D2
+      parameters:
+      - brightness: slate
+        elements_changed:
+        - [rotation, -2]
+        figure: 13
         frame: wide
-        rotation: 180
+        rotation: 90
+      - brightness: slate
+        elements_changed:
+        - [brightness, 1]
+        - [rotation, -1]
+        figure: 18
+        frame: narrow
+        rotation: 0
+      - brightness: slate
+        elements_changed: []
+        figure: 9
+        frame: thin
+        rotation: 90
+      - brightness: slate
+        elements_changed:
+        - [frame, 1]
+        - [brightness, 2]
+        - [rotation, 1]
+        figure: 19
+        frame: narrow
+        rotation: 90
     - name: D3
       parameters:
       - brightness: gray
         elements_changed:
         - [brightness, -1]
-        - [rotation, 1]
-        figure: 12
+        figure: 13
         frame: wide
-        rotation: 90
+        rotation: 270
       - brightness: slate
-        elements_changed:
-        - [frame, 2]
-        - [rotation, 2]
-        - [brightness, 2]
-        figure: 3
-        frame: wide
-        rotation: 180
-      - brightness: gray
-        elements_changed:
-        - [frame, 1]
-        - [brightness, 1]
-        figure: 2
-        frame: wide
-        rotation: 90
-      - brightness: slate
-        elements_changed: []
-        figure: 4
-        frame: wide
-        rotation: 180
-    - name: D5
-      parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 12
-        frame: wide
-        rotation: 0
-      - brightness: white
-        elements_changed: []
-        figure: 3
-        frame: thin
-        rotation: 0
-      - brightness: gray
         elements_changed:
         - [brightness, 1]
-        figure: 2
-        frame: narrow
-        rotation: 90
-      - brightness: slate
-        elements_changed: []
-        figure: 4
-        frame: wide
-        rotation: 180
-    - name: D1
-      parameters:
-      - brightness: gray
-        elements_changed:
-        - [frame, -2]
-        - [brightness, -1]
-        - [rotation, 1]
-        figure: 12
-        frame: thin
-        rotation: 90
-      - brightness: slate
-        elements_changed:
-        - [frame, 2]
-        - [rotation, 2]
-        - [brightness, 2]
-        figure: 3
-        frame: wide
-        rotation: 180
-      - brightness: gray
-        elements_changed:
-        - [frame, 1]
-        - [brightness, 1]
-        figure: 2
-        frame: wide
-        rotation: 90
-      - brightness: slate
-        elements_changed: []
-        figure: 4
-        frame: wide
-        rotation: 180
-    - name: D2
-      parameters:
-      - brightness: gray
-        elements_changed:
-        - [frame, -2]
-        - [brightness, -1]
-        - [rotation, 1]
-        figure: 12
-        frame: thin
-        rotation: 90
-      - brightness: slate
-        elements_changed:
-        - [frame, 2]
-        - [rotation, 2]
-        - [brightness, 2]
-        figure: 3
-        frame: wide
-        rotation: 180
-      - brightness: gray
-        elements_changed:
         - [rotation, -1]
-        - [brightness, 1]
-        figure: 2
+        figure: 18
         frame: narrow
         rotation: 0
       - brightness: slate
         elements_changed: []
-        figure: 4
-        frame: wide
-        rotation: 180
+        figure: 9
+        frame: thin
+        rotation: 90
+      - brightness: white
+        elements_changed:
+        - [frame, 1]
+        - [rotation, 1]
+        figure: 19
+        frame: narrow
+        rotation: 90
     rel: 3
     time: 120
     tip: ''
@@ -3757,220 +2344,1395 @@ list_of_blocks:
       parameters:
       - brightness: slate
         elements_changed: []
-        figure: 3
-        frame: wide
-        rotation: 0
-      - brightness: white
-        elements_changed: []
         figure: 6
-        frame: thin
-        rotation: 270
-      - brightness: white
-        elements_changed: []
-        figure: 20
         frame: wide
         rotation: 90
+      - brightness: white
+        elements_changed: []
+        figure: 8
+        frame: thin
+        rotation: 180
       - brightness: slate
         elements_changed: []
         figure: 11
+        frame: wide
+        rotation: 90
+      - brightness: white
+        elements_changed: []
+        figure: 19
         frame: thin
         rotation: 180
     - name: B
       parameters:
+      - brightness: gray
+        elements_changed:
+        - [rotation, 2]
+        - [brightness, -1]
+        figure: 11
+        frame: wide
+        rotation: 270
+      - brightness: slate
+        elements_changed:
+        - [brightness, 2]
+        - [rotation, -2]
+        figure: 19
+        frame: thin
+        rotation: 0
+      - brightness: gray
+        elements_changed:
+        - [brightness, 1]
+        - [rotation, -1]
+        figure: 8
+        frame: thin
+        rotation: 90
+      - brightness: slate
+        elements_changed:
+        - [frame, -2]
+        figure: 6
+        frame: thin
+        rotation: 90
+    - name: C
+      parameters:
+      - brightness: slate
+        elements_changed: []
+        figure: 4
+        frame: wide
+        rotation: 0
+      - brightness: white
+        elements_changed: []
+        figure: 17
+        frame: thin
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 5
+        frame: wide
+        rotation: 0
+      - brightness: white
+        elements_changed: []
+        figure: 9
+        frame: thin
+        rotation: 180
+    - name: D5
+      parameters:
+      - brightness: white
+        elements_changed:
+        - [rotation, -2]
+        figure: 9
+        frame: thin
+        rotation: 0
+      - brightness: slate
+        elements_changed: []
+        figure: 4
+        frame: wide
+        rotation: 0
+      - brightness: white
+        elements_changed: []
+        figure: 17
+        frame: thin
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 5
+        frame: wide
+        rotation: 0
+    - name: D3
+      parameters:
+      - brightness: slate
+        elements_changed:
+        - [brightness, 2]
+        - [rotation, -2]
+        figure: 9
+        frame: thin
+        rotation: 0
+      - brightness: slate
+        elements_changed:
+        - [frame, -2]
+        figure: 4
+        frame: thin
+        rotation: 0
+      - brightness: white
+        elements_changed:
+        - [rotation, -1]
+        figure: 17
+        frame: thin
+        rotation: 0
+      - brightness: gray
+        elements_changed:
+        - [rotation, 2]
+        - [brightness, -1]
+        figure: 5
+        frame: wide
+        rotation: 180
+    - name: D2
+      parameters:
+      - brightness: slate
+        elements_changed:
+        - [brightness, 2]
+        - [frame, 2]
+        figure: 9
+        frame: wide
+        rotation: 180
+      - brightness: slate
+        elements_changed:
+        - [frame, -2]
+        figure: 4
+        frame: thin
+        rotation: 0
+      - brightness: gray
+        elements_changed:
+        - [brightness, 1]
+        - [rotation, -1]
+        figure: 17
+        frame: thin
+        rotation: 0
+      - brightness: gray
+        elements_changed:
+        - [rotation, 2]
+        - [brightness, -1]
+        figure: 5
+        frame: wide
+        rotation: 180
+    - name: D6
+      parameters:
+      - brightness: white
+        elements_changed: []
+        figure: 9
+        frame: thin
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 4
+        frame: wide
+        rotation: 0
+      - brightness: white
+        elements_changed: []
+        figure: 17
+        frame: thin
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 5
+        frame: wide
+        rotation: 0
+    - name: D1
+      parameters:
+      - brightness: slate
+        elements_changed:
+        - [brightness, 2]
+        - [rotation, -2]
+        figure: 9
+        frame: thin
+        rotation: 0
+      - brightness: slate
+        elements_changed:
+        - [frame, -2]
+        figure: 4
+        frame: thin
+        rotation: 0
+      - brightness: gray
+        elements_changed:
+        - [brightness, 1]
+        - [rotation, -1]
+        figure: 17
+        frame: thin
+        rotation: 0
+      - brightness: gray
+        elements_changed:
+        - [rotation, 2]
+        - [brightness, -1]
+        figure: 5
+        frame: wide
+        rotation: 180
+    - name: D4
+      parameters:
+      - brightness: white
+        elements_changed: []
+        figure: 9
+        frame: thin
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 4
+        frame: wide
+        rotation: 0
+      - brightness: white
+        elements_changed: []
+        figure: 17
+        frame: thin
+        rotation: 90
+      - brightness: gray
+        elements_changed:
+        - [rotation, 2]
+        - [brightness, -1]
+        figure: 5
+        frame: wide
+        rotation: 180
+    rel: 4
+    time: 120
+    tip: ''
+    tip_time: 4
+    type: trial
+    wait: 5
+  - exp: experiment
+    feedb: 0
+    matrix_info:
+    - name: A
+      parameters:
+      - brightness: gray
+        elements_changed: []
+        figure: 10
+        frame: thin
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 20
+        frame: thin
+        rotation: 180
+      - brightness: white
+        elements_changed: []
+        figure: 17
+        frame: wide
+        rotation: 0
+      - brightness: white
+        elements_changed: []
+        figure: 2
+        frame: narrow
+        rotation: 270
+    - name: B
+      parameters:
+      - brightness: white
+        elements_changed:
+        - [brightness, -2]
+        - [rotation, 1]
+        figure: 20
+        frame: thin
+        rotation: 270
+      - brightness: white
+        elements_changed: []
+        figure: 17
+        frame: wide
+        rotation: 0
+      - brightness: white
+        elements_changed:
+        - [rotation, -2]
+        figure: 2
+        frame: narrow
+        rotation: 90
+      - brightness: white
+        elements_changed:
+        - [frame, 1]
+        - [brightness, -1]
+        figure: 10
+        frame: narrow
+        rotation: 90
+    - name: C
+      parameters:
+      - brightness: gray
+        elements_changed: []
+        figure: 13
+        frame: narrow
+        rotation: 270
+      - brightness: slate
+        elements_changed: []
+        figure: 6
+        frame: thin
+        rotation: 180
+      - brightness: gray
+        elements_changed: []
+        figure: 15
+        frame: wide
+        rotation: 90
+      - brightness: white
+        elements_changed: []
+        figure: 4
+        frame: narrow
+        rotation: 180
+    - name: D2
+      parameters:
+      - brightness: gray
+        elements_changed: []
+        figure: 15
+        frame: wide
+        rotation: 90
+      - brightness: white
+        elements_changed:
+        - [frame, 1]
+        - [brightness, -1]
+        figure: 13
+        frame: wide
+        rotation: 270
       - brightness: white
         elements_changed:
         - [frame, -1]
-        - [rotation, -1]
-        figure: 20
+        figure: 4
+        frame: thin
+        rotation: 180
+      - brightness: white
+        elements_changed:
+        - [brightness, -2]
+        - [rotation, 1]
+        figure: 6
+        frame: thin
+        rotation: 270
+    - name: D4
+      parameters:
+      - brightness: gray
+        elements_changed: []
+        figure: 15
+        frame: wide
+        rotation: 90
+      - brightness: white
+        elements_changed:
+        - [frame, 1]
+        - [brightness, -1]
+        figure: 13
+        frame: wide
+        rotation: 270
+      - brightness: white
+        elements_changed: []
+        figure: 4
+        frame: narrow
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 6
+        frame: thin
+        rotation: 180
+    - name: D1
+      parameters:
+      - brightness: gray
+        elements_changed: []
+        figure: 15
+        frame: wide
+        rotation: 90
+      - brightness: white
+        elements_changed:
+        - [frame, 1]
+        - [brightness, -1]
+        figure: 13
+        frame: wide
+        rotation: 270
+      - brightness: white
+        elements_changed:
+        - [rotation, -2]
+        figure: 4
         frame: narrow
         rotation: 0
+      - brightness: white
+        elements_changed:
+        - [brightness, -2]
+        - [rotation, 1]
+        figure: 6
+        frame: thin
+        rotation: 270
+    - name: D5
+      parameters:
+      - brightness: gray
+        elements_changed: []
+        figure: 15
+        frame: wide
+        rotation: 90
+      - brightness: gray
+        elements_changed: []
+        figure: 13
+        frame: narrow
+        rotation: 270
+      - brightness: white
+        elements_changed: []
+        figure: 4
+        frame: narrow
+        rotation: 180
+      - brightness: slate
+        elements_changed:
+        - [rotation, 1]
+        figure: 6
+        frame: thin
+        rotation: 270
+    - name: D3
+      parameters:
+      - brightness: gray
+        elements_changed: []
+        figure: 15
+        frame: wide
+        rotation: 90
+      - brightness: gray
+        elements_changed:
+        - [frame, 1]
+        figure: 13
+        frame: wide
+        rotation: 270
+      - brightness: white
+        elements_changed:
+        - [rotation, -2]
+        figure: 4
+        frame: narrow
+        rotation: 0
+      - brightness: white
+        elements_changed:
+        - [brightness, -2]
+        - [rotation, 1]
+        figure: 6
+        frame: thin
+        rotation: 270
+    - name: D6
+      parameters:
+      - brightness: gray
+        elements_changed: []
+        figure: 15
+        frame: wide
+        rotation: 90
+      - brightness: gray
+        elements_changed: []
+        figure: 13
+        frame: narrow
+        rotation: 270
+      - brightness: white
+        elements_changed: []
+        figure: 4
+        frame: narrow
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 6
+        frame: thin
+        rotation: 180
+    rel: 3
+    time: 120
+    tip: ''
+    tip_time: 4
+    type: trial
+    wait: 5
+  - exp: experiment
+    feedb: 0
+    matrix_info:
+    - name: A
+      parameters:
+      - brightness: white
+        elements_changed: []
+        figure: 5
+        frame: wide
+        rotation: 0
+      - brightness: white
+        elements_changed: []
+        figure: 15
+        frame: thin
+        rotation: 180
       - brightness: slate
         elements_changed: []
         figure: 11
         frame: thin
         rotation: 180
-      - brightness: gray
-        elements_changed:
-        - [brightness, 1]
-        - [rotation, -2]
-        - [frame, 2]
-        figure: 6
-        frame: wide
-        rotation: 90
       - brightness: slate
         elements_changed: []
-        figure: 3
+        figure: 14
         frame: wide
-        rotation: 0
+        rotation: 180
+    - name: B
+      parameters:
+      - brightness: slate
+        elements_changed:
+        - [rotation, 1]
+        - [brightness, 2]
+        figure: 15
+        frame: thin
+        rotation: 270
+      - brightness: gray
+        elements_changed:
+        - [rotation, -1]
+        - [frame, 2]
+        - [brightness, -1]
+        figure: 11
+        frame: wide
+        rotation: 90
+      - brightness: white
+        elements_changed:
+        - [frame, -2]
+        - [brightness, -2]
+        figure: 14
+        frame: thin
+        rotation: 180
+      - brightness: white
+        elements_changed:
+        - [rotation, 2]
+        - [frame, -1]
+        figure: 5
+        frame: narrow
+        rotation: 180
     - name: C
       parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 14
-        frame: wide
-        rotation: 0
       - brightness: white
         elements_changed: []
-        figure: 4
+        figure: 13
+        frame: narrow
+        rotation: 90
+      - brightness: white
+        elements_changed: []
+        figure: 1
+        frame: narrow
+        rotation: 0
+      - brightness: slate
+        elements_changed: []
+        figure: 8
         frame: thin
         rotation: 270
-      - brightness: white
-        elements_changed: []
-        figure: 7
-        frame: narrow
-        rotation: 90
       - brightness: slate
         elements_changed: []
-        figure: 1
-        frame: narrow
-        rotation: 90
-    - name: D6
-      parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 1
-        frame: narrow
-        rotation: 90
-      - brightness: white
-        elements_changed: []
-        figure: 7
-        frame: narrow
-        rotation: 90
-      - brightness: slate
-        elements_changed: []
-        figure: 14
+        figure: 17
         frame: wide
-        rotation: 0
-      - brightness: white
-        elements_changed: []
-        figure: 4
-        frame: thin
-        rotation: 270
-    - name: D3
-      parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 1
-        frame: narrow
-        rotation: 90
-      - brightness: white
-        elements_changed:
-        - [rotation, -1]
-        figure: 7
-        frame: narrow
-        rotation: 0
-      - brightness: slate
-        elements_changed: []
-        figure: 14
-        frame: wide
-        rotation: 0
-      - brightness: gray
-        elements_changed:
-        - [brightness, 1]
-        - [rotation, -2]
-        - [frame, 2]
-        figure: 4
-        frame: wide
-        rotation: 90
-    - name: D4
-      parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 1
-        frame: narrow
-        rotation: 90
-      - brightness: white
-        elements_changed:
-        - [frame, -1]
-        - [rotation, -1]
-        figure: 7
-        frame: thin
-        rotation: 0
-      - brightness: slate
-        elements_changed: []
-        figure: 14
-        frame: wide
-        rotation: 0
-      - brightness: white
-        elements_changed: []
-        figure: 4
-        frame: thin
-        rotation: 270
-    - name: D1
-      parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 1
-        frame: narrow
-        rotation: 90
-      - brightness: white
-        elements_changed:
-        - [frame, -1]
-        - [rotation, -1]
-        figure: 7
-        frame: thin
-        rotation: 0
-      - brightness: slate
-        elements_changed: []
-        figure: 14
-        frame: wide
-        rotation: 0
-      - brightness: gray
-        elements_changed:
-        - [brightness, 1]
-        - [rotation, -2]
-        - [frame, 2]
-        figure: 4
-        frame: wide
-        rotation: 90
+        rotation: 180
     - name: D2
       parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 1
-        frame: narrow
-        rotation: 90
-      - brightness: slate
-        elements_changed:
-        - [brightness, 2]
-        - [rotation, -1]
-        figure: 7
-        frame: narrow
-        rotation: 0
-      - brightness: slate
-        elements_changed: []
-        figure: 14
-        frame: wide
-        rotation: 0
       - brightness: gray
         elements_changed:
-        - [brightness, 1]
-        - [rotation, -2]
+        - [rotation, -1]
         - [frame, 2]
-        figure: 4
+        - [brightness, -1]
+        figure: 8
         frame: wide
+        rotation: 180
+      - brightness: white
+        elements_changed:
+        - [rotation, 2]
+        - [frame, -1]
+        figure: 13
+        frame: thin
+        rotation: 270
+      - brightness: slate
+        elements_changed:
+        - [frame, -2]
+        - [rotation, -2]
+        figure: 17
+        frame: thin
+        rotation: 0
+      - brightness: slate
+        elements_changed:
+        - [rotation, 1]
+        - [brightness, 2]
+        figure: 1
+        frame: narrow
         rotation: 90
     - name: D5
       parameters:
       - brightness: slate
         elements_changed: []
+        figure: 8
+        frame: thin
+        rotation: 270
+      - brightness: white
+        elements_changed: []
+        figure: 13
+        frame: narrow
+        rotation: 90
+      - brightness: slate
+        elements_changed:
+        - [frame, -2]
+        figure: 17
+        frame: thin
+        rotation: 180
+      - brightness: white
+        elements_changed: []
         figure: 1
+        frame: narrow
+        rotation: 0
+    - name: D6
+      parameters:
+      - brightness: slate
+        elements_changed: []
+        figure: 8
+        frame: thin
+        rotation: 270
+      - brightness: white
+        elements_changed: []
+        figure: 13
+        frame: narrow
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 17
+        frame: wide
+        rotation: 180
+      - brightness: white
+        elements_changed: []
+        figure: 1
+        frame: narrow
+        rotation: 0
+    - name: D4
+      parameters:
+      - brightness: slate
+        elements_changed: []
+        figure: 8
+        frame: thin
+        rotation: 270
+      - brightness: white
+        elements_changed: []
+        figure: 13
         frame: narrow
         rotation: 90
       - brightness: white
         elements_changed:
-        - [rotation, -1]
-        figure: 7
+        - [frame, -2]
+        - [brightness, -2]
+        figure: 17
+        frame: thin
+        rotation: 180
+      - brightness: white
+        elements_changed: []
+        figure: 1
         frame: narrow
+        rotation: 0
+    - name: D1
+      parameters:
+      - brightness: gray
+        elements_changed:
+        - [rotation, -1]
+        - [frame, 2]
+        - [brightness, -1]
+        figure: 8
+        frame: wide
+        rotation: 180
+      - brightness: white
+        elements_changed:
+        - [rotation, 2]
+        - [frame, -1]
+        figure: 13
+        frame: thin
+        rotation: 270
+      - brightness: white
+        elements_changed:
+        - [frame, -2]
+        - [brightness, -2]
+        figure: 17
+        frame: thin
+        rotation: 180
+      - brightness: slate
+        elements_changed:
+        - [rotation, 1]
+        - [brightness, 2]
+        figure: 1
+        frame: narrow
+        rotation: 90
+    - name: D3
+      parameters:
+      - brightness: gray
+        elements_changed:
+        - [rotation, -1]
+        - [frame, 2]
+        - [brightness, -1]
+        figure: 8
+        frame: wide
+        rotation: 180
+      - brightness: white
+        elements_changed:
+        - [rotation, 2]
+        - [frame, -1]
+        figure: 13
+        frame: thin
+        rotation: 270
+      - brightness: slate
+        elements_changed:
+        - [frame, -2]
+        figure: 17
+        frame: thin
+        rotation: 180
+      - brightness: slate
+        elements_changed:
+        - [rotation, 1]
+        - [brightness, 2]
+        figure: 1
+        frame: narrow
+        rotation: 90
+    rel: 4
+    time: 120
+    tip: ''
+    tip_time: 4
+    type: trial
+    wait: 5
+  - exp: experiment
+    feedb: 0
+    matrix_info:
+    - name: A
+      parameters:
+      - brightness: gray
+        elements_changed: []
+        figure: 20
+        frame: wide
         rotation: 0
       - brightness: slate
         elements_changed: []
         figure: 14
+        frame: thin
+        rotation: 0
+      - brightness: slate
+        elements_changed: []
+        figure: 2
+        frame: thin
+        rotation: 180
+      - brightness: white
+        elements_changed: []
+        figure: 3
         frame: wide
+        rotation: 270
+    - name: B
+      parameters:
+      - brightness: slate
+        elements_changed: []
+        figure: 14
+        frame: thin
+        rotation: 0
+      - brightness: slate
+        elements_changed:
+        - [rotation, -1]
+        - [brightness, 2]
+        figure: 3
+        frame: wide
+        rotation: 180
+      - brightness: slate
+        elements_changed:
+        - [rotation, 1]
+        - [frame, -1]
+        - [brightness, 1]
+        figure: 20
+        frame: narrow
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 2
+        frame: thin
+        rotation: 180
+    - name: C
+      parameters:
+      - brightness: white
+        elements_changed: []
+        figure: 5
+        frame: narrow
+        rotation: 90
+      - brightness: gray
+        elements_changed: []
+        figure: 11
+        frame: thin
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 4
+        frame: thin
+        rotation: 270
+      - brightness: white
+        elements_changed: []
+        figure: 9
+        frame: wide
+        rotation: 90
+    - name: D2
+      parameters:
+      - brightness: slate
+        elements_changed:
+        - [frame, -2]
+        - [brightness, 2]
+        figure: 9
+        frame: thin
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 4
+        frame: thin
+        rotation: 270
+      - brightness: gray
+        elements_changed:
+        - [rotation, 1]
+        - [frame, -1]
+        - [brightness, 1]
+        figure: 5
+        frame: thin
+        rotation: 180
+      - brightness: gray
+        elements_changed: []
+        figure: 11
+        frame: thin
+        rotation: 90
+    - name: D6
+      parameters:
+      - brightness: white
+        elements_changed: []
+        figure: 9
+        frame: wide
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 4
+        frame: thin
+        rotation: 270
+      - brightness: white
+        elements_changed: []
+        figure: 5
+        frame: narrow
+        rotation: 90
+      - brightness: gray
+        elements_changed: []
+        figure: 11
+        frame: thin
+        rotation: 90
+    - name: D4
+      parameters:
+      - brightness: white
+        elements_changed: []
+        figure: 9
+        frame: wide
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 4
+        frame: thin
+        rotation: 270
+      - brightness: gray
+        elements_changed:
+        - [rotation, 1]
+        - [frame, -1]
+        - [brightness, 1]
+        figure: 5
+        frame: thin
+        rotation: 180
+      - brightness: gray
+        elements_changed: []
+        figure: 11
+        frame: thin
+        rotation: 90
+    - name: D3
+      parameters:
+      - brightness: slate
+        elements_changed:
+        - [rotation, -1]
+        - [brightness, 2]
+        figure: 9
+        frame: wide
+        rotation: 0
+      - brightness: slate
+        elements_changed: []
+        figure: 4
+        frame: thin
+        rotation: 270
+      - brightness: white
+        elements_changed:
+        - [rotation, 1]
+        - [frame, -1]
+        figure: 5
+        frame: thin
+        rotation: 180
+      - brightness: gray
+        elements_changed: []
+        figure: 11
+        frame: thin
+        rotation: 90
+    - name: D5
+      parameters:
+      - brightness: slate
+        elements_changed:
+        - [brightness, 2]
+        figure: 9
+        frame: wide
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 4
+        frame: thin
+        rotation: 270
+      - brightness: white
+        elements_changed: []
+        figure: 5
+        frame: narrow
+        rotation: 90
+      - brightness: gray
+        elements_changed: []
+        figure: 11
+        frame: thin
+        rotation: 90
+    - name: D1
+      parameters:
+      - brightness: slate
+        elements_changed:
+        - [rotation, -1]
+        - [brightness, 2]
+        figure: 9
+        frame: wide
+        rotation: 0
+      - brightness: slate
+        elements_changed: []
+        figure: 4
+        frame: thin
+        rotation: 270
+      - brightness: gray
+        elements_changed:
+        - [rotation, 1]
+        - [frame, -1]
+        - [brightness, 1]
+        figure: 5
+        frame: thin
+        rotation: 180
+      - brightness: gray
+        elements_changed: []
+        figure: 11
+        frame: thin
+        rotation: 90
+    rel: 2
+    time: 120
+    tip: ''
+    tip_time: 4
+    type: trial
+    wait: 5
+  - exp: experiment
+    feedb: 0
+    matrix_info:
+    - name: A
+      parameters:
+      - brightness: white
+        elements_changed: []
+        figure: 9
+        frame: narrow
+        rotation: 270
+      - brightness: slate
+        elements_changed: []
+        figure: 10
+        frame: narrow
         rotation: 0
       - brightness: white
         elements_changed: []
-        figure: 4
+        figure: 14
+        frame: wide
+        rotation: 270
+      - brightness: slate
+        elements_changed: []
+        figure: 5
+        frame: thin
+        rotation: 90
+    - name: B
+      parameters:
+      - brightness: slate
+        elements_changed:
+        - [rotation, 1]
+        figure: 10
+        frame: narrow
+        rotation: 90
+      - brightness: slate
+        elements_changed:
+        - [rotation, 2]
+        figure: 5
+        frame: thin
+        rotation: 270
+      - brightness: gray
+        elements_changed:
+        - [brightness, 1]
+        - [frame, -1]
+        - [rotation, -1]
+        figure: 9
+        frame: thin
+        rotation: 180
+      - brightness: slate
+        elements_changed:
+        - [frame, -2]
+        - [brightness, 2]
+        figure: 14
+        frame: thin
+        rotation: 270
+    - name: C
+      parameters:
+      - brightness: gray
+        elements_changed: []
+        figure: 3
+        frame: narrow
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 17
+        frame: narrow
+        rotation: 90
+      - brightness: white
+        elements_changed: []
+        figure: 11
+        frame: wide
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 7
+        frame: thin
+        rotation: 90
+    - name: D3
+      parameters:
+      - brightness: slate
+        elements_changed:
+        - [rotation, 1]
+        figure: 17
+        frame: narrow
+        rotation: 180
+      - brightness: white
+        elements_changed:
+        - [frame, -2]
+        figure: 11
+        frame: thin
+        rotation: 180
+      - brightness: slate
+        elements_changed:
+        - [rotation, 2]
+        figure: 7
+        frame: thin
+        rotation: 270
+      - brightness: slate
+        elements_changed:
+        - [brightness, 1]
+        - [frame, -1]
+        - [rotation, -1]
+        figure: 3
+        frame: thin
+        rotation: 90
+    - name: D5
+      parameters:
+      - brightness: slate
+        elements_changed: []
+        figure: 17
+        frame: narrow
+        rotation: 90
+      - brightness: white
+        elements_changed: []
+        figure: 11
+        frame: wide
+        rotation: 180
+      - brightness: slate
+        elements_changed:
+        - [rotation, 2]
+        figure: 7
+        frame: thin
+        rotation: 270
+      - brightness: gray
+        elements_changed: []
+        figure: 3
+        frame: narrow
+        rotation: 180
+    - name: D6
+      parameters:
+      - brightness: slate
+        elements_changed: []
+        figure: 17
+        frame: narrow
+        rotation: 90
+      - brightness: white
+        elements_changed: []
+        figure: 11
+        frame: wide
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 7
+        frame: thin
+        rotation: 90
+      - brightness: gray
+        elements_changed: []
+        figure: 3
+        frame: narrow
+        rotation: 180
+    - name: D2
+      parameters:
+      - brightness: slate
+        elements_changed:
+        - [rotation, 1]
+        figure: 17
+        frame: narrow
+        rotation: 180
+      - brightness: slate
+        elements_changed:
+        - [rotation, -2]
+        - [brightness, 2]
+        figure: 11
+        frame: wide
+        rotation: 0
+      - brightness: slate
+        elements_changed:
+        - [rotation, 2]
+        figure: 7
+        frame: thin
+        rotation: 270
+      - brightness: slate
+        elements_changed:
+        - [brightness, 1]
+        - [frame, -1]
+        - [rotation, -1]
+        figure: 3
+        frame: thin
+        rotation: 90
+    - name: D4
+      parameters:
+      - brightness: slate
+        elements_changed: []
+        figure: 17
+        frame: narrow
+        rotation: 90
+      - brightness: white
+        elements_changed: []
+        figure: 11
+        frame: wide
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 7
+        frame: thin
+        rotation: 90
+      - brightness: slate
+        elements_changed:
+        - [brightness, 1]
+        - [frame, -1]
+        - [rotation, -1]
+        figure: 3
+        frame: thin
+        rotation: 90
+    - name: D1
+      parameters:
+      - brightness: slate
+        elements_changed:
+        - [rotation, 1]
+        figure: 17
+        frame: narrow
+        rotation: 180
+      - brightness: slate
+        elements_changed:
+        - [frame, -2]
+        - [brightness, 2]
+        figure: 11
+        frame: thin
+        rotation: 180
+      - brightness: slate
+        elements_changed:
+        - [rotation, 2]
+        figure: 7
+        frame: thin
+        rotation: 270
+      - brightness: slate
+        elements_changed:
+        - [brightness, 1]
+        - [frame, -1]
+        - [rotation, -1]
+        figure: 3
+        frame: thin
+        rotation: 90
+    rel: 4
+    time: 120
+    tip: ''
+    tip_time: 4
+    type: trial
+    wait: 5
+  - exp: experiment
+    feedb: 0
+    matrix_info:
+    - name: A
+      parameters:
+      - brightness: white
+        elements_changed: []
+        figure: 16
+        frame: narrow
+        rotation: 270
+      - brightness: gray
+        elements_changed: []
+        figure: 1
+        frame: thin
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 15
+        frame: wide
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 9
+        frame: wide
+        rotation: 0
+    - name: B
+      parameters:
+      - brightness: slate
+        elements_changed:
+        - [frame, -1]
+        - [rotation, 1]
+        figure: 15
+        frame: narrow
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 9
+        frame: wide
+        rotation: 0
+      - brightness: gray
+        elements_changed: []
+        figure: 1
+        frame: thin
+        rotation: 180
+      - brightness: white
+        elements_changed:
+        - [rotation, -1]
+        - [frame, 1]
+        figure: 16
+        frame: wide
+        rotation: 180
+    - name: C
+      parameters:
+      - brightness: white
+        elements_changed: []
+        figure: 12
+        frame: thin
+        rotation: 180
+      - brightness: gray
+        elements_changed: []
+        figure: 2
+        frame: thin
+        rotation: 270
+      - brightness: slate
+        elements_changed: []
+        figure: 11
+        frame: narrow
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 5
+        frame: wide
+        rotation: 0
+    - name: D6
+      parameters:
+      - brightness: slate
+        elements_changed: []
+        figure: 11
+        frame: narrow
+        rotation: 90
+      - brightness: white
+        elements_changed: []
+        figure: 12
+        frame: thin
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 5
+        frame: wide
+        rotation: 0
+      - brightness: gray
+        elements_changed: []
+        figure: 2
+        frame: thin
+        rotation: 270
+    - name: D1
+      parameters:
+      - brightness: slate
+        elements_changed:
+        - [frame, -1]
+        - [rotation, 1]
+        figure: 11
+        frame: thin
+        rotation: 180
+      - brightness: white
+        elements_changed:
+        - [rotation, -1]
+        - [frame, 1]
+        figure: 12
+        frame: narrow
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 5
+        frame: wide
+        rotation: 0
+      - brightness: gray
+        elements_changed: []
+        figure: 2
+        frame: thin
+        rotation: 270
+    - name: D5
+      parameters:
+      - brightness: slate
+        elements_changed: []
+        figure: 11
+        frame: narrow
+        rotation: 90
+      - brightness: white
+        elements_changed:
+        - [frame, 1]
+        figure: 12
+        frame: narrow
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 5
+        frame: wide
+        rotation: 0
+      - brightness: gray
+        elements_changed: []
+        figure: 2
+        frame: thin
+        rotation: 270
+    - name: D2
+      parameters:
+      - brightness: gray
+        elements_changed:
+        - [brightness, -1]
+        - [rotation, 1]
+        figure: 11
+        frame: narrow
+        rotation: 180
+      - brightness: white
+        elements_changed:
+        - [rotation, -1]
+        - [frame, 1]
+        figure: 12
+        frame: narrow
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 5
+        frame: wide
+        rotation: 0
+      - brightness: gray
+        elements_changed: []
+        figure: 2
+        frame: thin
+        rotation: 270
+    - name: D4
+      parameters:
+      - brightness: slate
+        elements_changed:
+        - [frame, -1]
+        - [rotation, 1]
+        figure: 11
+        frame: thin
+        rotation: 180
+      - brightness: white
+        elements_changed: []
+        figure: 12
+        frame: thin
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 5
+        frame: wide
+        rotation: 0
+      - brightness: gray
+        elements_changed: []
+        figure: 2
+        frame: thin
+        rotation: 270
+    - name: D3
+      parameters:
+      - brightness: slate
+        elements_changed:
+        - [frame, -1]
+        figure: 11
+        frame: thin
+        rotation: 90
+      - brightness: white
+        elements_changed:
+        - [rotation, -1]
+        - [frame, 1]
+        figure: 12
+        frame: narrow
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 5
+        frame: wide
+        rotation: 0
+      - brightness: gray
+        elements_changed: []
+        figure: 2
         frame: thin
         rotation: 270
     rel: 2
@@ -3986,217 +3748,222 @@ list_of_blocks:
       parameters:
       - brightness: white
         elements_changed: []
-        figure: 15
-        frame: thin
-        rotation: 180
-      - brightness: slate
+        figure: 7
+        frame: wide
+        rotation: 90
+      - brightness: white
         elements_changed: []
         figure: 17
         frame: narrow
-        rotation: 0
-      - brightness: white
-        elements_changed: []
-        figure: 9
-        frame: thin
-        rotation: 270
+        rotation: 90
       - brightness: slate
         elements_changed: []
-        figure: 7
-        frame: wide
+        figure: 12
+        frame: thin
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 13
+        frame: narrow
         rotation: 270
     - name: B
       parameters:
-      - brightness: slate
-        elements_changed: []
+      - brightness: gray
+        elements_changed:
+        - [rotation, -1]
+        - [brightness, 1]
         figure: 17
         frame: narrow
         rotation: 0
+      - brightness: slate
+        elements_changed: []
+        figure: 13
+        frame: narrow
+        rotation: 270
+      - brightness: slate
+        elements_changed:
+        - [brightness, 2]
+        - [frame, -2]
+        - [rotation, 1]
+        figure: 7
+        frame: thin
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 12
+        frame: thin
+        rotation: 90
+    - name: C
+      parameters:
       - brightness: white
+        elements_changed: []
+        figure: 14
+        frame: wide
+        rotation: 180
+      - brightness: gray
+        elements_changed: []
+        figure: 8
+        frame: thin
+        rotation: 270
+      - brightness: slate
         elements_changed: []
         figure: 9
         frame: thin
-        rotation: 270
-      - brightness: white
-        elements_changed:
-        - [brightness, -2]
-        - [rotation, -2]
-        figure: 7
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 11
         frame: wide
-        rotation: 90
-      - brightness: gray
-        elements_changed:
-        - [brightness, 1]
-        - [rotation, 1]
-        figure: 15
-        frame: thin
-        rotation: 270
-    - name: C
-      parameters:
-      - brightness: gray
-        elements_changed: []
-        figure: 10
-        frame: thin
-        rotation: 90
-      - brightness: slate
-        elements_changed: []
-        figure: 20
-        frame: narrow
-        rotation: 90
-      - brightness: white
-        elements_changed: []
-        figure: 6
-        frame: narrow
-        rotation: 180
-      - brightness: slate
-        elements_changed: []
-        figure: 5
-        frame: wide
-        rotation: 180
-    - name: D1
-      parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 20
-        frame: narrow
-        rotation: 90
-      - brightness: white
-        elements_changed:
-        - [brightness, -2]
-        - [rotation, -2]
-        figure: 5
-        frame: wide
-        rotation: 0
-      - brightness: slate
-        elements_changed:
-        - [brightness, 1]
-        - [rotation, 1]
-        figure: 10
-        frame: thin
-        rotation: 180
-      - brightness: white
-        elements_changed: []
-        figure: 6
-        frame: narrow
-        rotation: 180
-    - name: D5
-      parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 20
-        frame: narrow
-        rotation: 90
-      - brightness: slate
-        elements_changed:
-        - [rotation, -2]
-        figure: 5
-        frame: wide
-        rotation: 0
-      - brightness: gray
-        elements_changed: []
-        figure: 10
-        frame: thin
-        rotation: 90
-      - brightness: white
-        elements_changed: []
-        figure: 6
-        frame: narrow
-        rotation: 180
-    - name: D6
-      parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 20
-        frame: narrow
-        rotation: 90
-      - brightness: slate
-        elements_changed: []
-        figure: 5
-        frame: wide
-        rotation: 180
-      - brightness: gray
-        elements_changed: []
-        figure: 10
-        frame: thin
-        rotation: 90
-      - brightness: white
-        elements_changed: []
-        figure: 6
-        frame: narrow
-        rotation: 180
-    - name: D3
-      parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 20
-        frame: narrow
-        rotation: 90
-      - brightness: white
-        elements_changed:
-        - [brightness, -2]
-        - [rotation, -2]
-        figure: 5
-        frame: wide
-        rotation: 0
-      - brightness: slate
-        elements_changed:
-        - [brightness, 1]
-        figure: 10
-        frame: thin
-        rotation: 90
-      - brightness: white
-        elements_changed: []
-        figure: 6
-        frame: narrow
-        rotation: 180
-    - name: D2
-      parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 20
-        frame: narrow
-        rotation: 90
-      - brightness: white
-        elements_changed:
-        - [brightness, -2]
-        - [rotation, -2]
-        figure: 5
-        frame: wide
-        rotation: 0
-      - brightness: gray
-        elements_changed:
-        - [frame, 2]
-        - [rotation, 1]
-        figure: 10
-        frame: wide
-        rotation: 180
-      - brightness: white
-        elements_changed: []
-        figure: 6
-        frame: narrow
         rotation: 180
     - name: D4
       parameters:
       - brightness: slate
         elements_changed: []
-        figure: 20
+        figure: 11
+        frame: wide
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 9
+        frame: thin
+        rotation: 90
+      - brightness: slate
+        elements_changed:
+        - [brightness, 2]
+        - [frame, -2]
+        - [rotation, 1]
+        figure: 14
+        frame: thin
+        rotation: 270
+      - brightness: gray
+        elements_changed: []
+        figure: 8
+        frame: thin
+        rotation: 270
+    - name: D2
+      parameters:
+      - brightness: slate
+        elements_changed: []
+        figure: 11
+        frame: wide
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 9
+        frame: thin
+        rotation: 90
+      - brightness: slate
+        elements_changed:
+        - [brightness, 2]
+        - [frame, -2]
+        - [rotation, 1]
+        figure: 14
+        frame: thin
+        rotation: 270
+      - brightness: slate
+        elements_changed:
+        - [frame, 1]
+        - [brightness, 1]
+        figure: 8
         frame: narrow
+        rotation: 270
+    - name: D3
+      parameters:
+      - brightness: slate
+        elements_changed: []
+        figure: 11
+        frame: wide
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 9
+        frame: thin
         rotation: 90
       - brightness: white
         elements_changed:
-        - [brightness, -2]
-        - [rotation, -2]
-        figure: 5
-        frame: wide
-        rotation: 0
-      - brightness: gray
+        - [frame, -2]
+        - [rotation, 1]
+        figure: 14
+        frame: thin
+        rotation: 270
+      - brightness: slate
+        elements_changed:
+        - [rotation, -1]
+        - [brightness, 1]
+        figure: 8
+        frame: thin
+        rotation: 180
+    - name: D5
+      parameters:
+      - brightness: slate
         elements_changed: []
-        figure: 10
+        figure: 11
+        frame: wide
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 9
         frame: thin
         rotation: 90
       - brightness: white
         elements_changed: []
-        figure: 6
-        frame: narrow
+        figure: 14
+        frame: wide
+        rotation: 180
+      - brightness: slate
+        elements_changed:
+        - [brightness, 1]
+        figure: 8
+        frame: thin
+        rotation: 270
+    - name: D6
+      parameters:
+      - brightness: slate
+        elements_changed: []
+        figure: 11
+        frame: wide
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 9
+        frame: thin
+        rotation: 90
+      - brightness: white
+        elements_changed: []
+        figure: 14
+        frame: wide
+        rotation: 180
+      - brightness: gray
+        elements_changed: []
+        figure: 8
+        frame: thin
+        rotation: 270
+    - name: D1
+      parameters:
+      - brightness: slate
+        elements_changed: []
+        figure: 11
+        frame: wide
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 9
+        frame: thin
+        rotation: 90
+      - brightness: slate
+        elements_changed:
+        - [brightness, 2]
+        - [frame, -2]
+        - [rotation, 1]
+        figure: 14
+        frame: thin
+        rotation: 270
+      - brightness: slate
+        elements_changed:
+        - [rotation, -1]
+        - [brightness, 1]
+        figure: 8
+        frame: thin
         rotation: 180
     rel: 2
     time: 120
@@ -4209,462 +3976,683 @@ list_of_blocks:
     matrix_info:
     - name: A
       parameters:
-      - brightness: gray
+      - brightness: slate
         elements_changed: []
-        figure: 5
+        figure: 14
         frame: narrow
-        rotation: 180
-      - brightness: gray
+        rotation: 90
+      - brightness: white
+        elements_changed: []
+        figure: 8
+        frame: narrow
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 9
+        frame: wide
+        rotation: 270
+      - brightness: white
         elements_changed: []
         figure: 19
         frame: thin
-        rotation: 0
-      - brightness: slate
-        elements_changed: []
-        figure: 20
-        frame: wide
-        rotation: 180
-      - brightness: white
-        elements_changed: []
-        figure: 16
-        frame: thin
-        rotation: 180
+        rotation: 90
     - name: B
       parameters:
-      - brightness: gray
+      - brightness: slate
         elements_changed:
-        - [frame, 1]
-        figure: 19
-        frame: narrow
+        - [rotation, -1]
+        - [frame, -1]
+        - [brightness, 2]
+        figure: 8
+        frame: thin
         rotation: 0
       - brightness: white
-        elements_changed:
-        - [rotation, -2]
-        - [frame, 2]
-        figure: 16
-        frame: wide
-        rotation: 0
-      - brightness: gray
         elements_changed: []
-        figure: 5
-        frame: narrow
-        rotation: 180
+        figure: 19
+        frame: thin
+        rotation: 90
       - brightness: slate
-        elements_changed: []
-        figure: 20
+        elements_changed:
+        - [frame, 1]
+        - [rotation, 1]
+        figure: 14
         frame: wide
         rotation: 180
+      - brightness: gray
+        elements_changed:
+        - [brightness, -1]
+        - [rotation, -2]
+        figure: 9
+        frame: wide
+        rotation: 90
     - name: C
       parameters:
       - brightness: slate
         elements_changed: []
         figure: 1
-        frame: wide
-        rotation: 90
-      - brightness: white
-        elements_changed: []
-        figure: 10
-        frame: thin
-        rotation: 0
-      - brightness: slate
-        elements_changed: []
-        figure: 7
-        frame: wide
-        rotation: 270
-      - brightness: white
-        elements_changed: []
-        figure: 11
-        frame: thin
+        frame: narrow
         rotation: 180
-    - name: D4
-      parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 7
-        frame: wide
-        rotation: 270
       - brightness: white
-        elements_changed:
-        - [rotation, -2]
-        - [frame, 2]
+        elements_changed: []
         figure: 11
         frame: wide
-        rotation: 0
-      - brightness: white
+        rotation: 270
+      - brightness: gray
         elements_changed: []
-        figure: 10
-        frame: thin
-        rotation: 0
-      - brightness: slate
-        elements_changed: []
-        figure: 1
+        figure: 15
         frame: wide
+        rotation: 270
+      - brightness: gray
+        elements_changed: []
+        figure: 4
+        frame: thin
         rotation: 90
     - name: D6
       parameters:
-      - brightness: slate
+      - brightness: gray
         elements_changed: []
-        figure: 7
+        figure: 15
         frame: wide
         rotation: 270
+      - brightness: gray
+        elements_changed: []
+        figure: 4
+        frame: thin
+        rotation: 90
       - brightness: white
         elements_changed: []
         figure: 11
-        frame: thin
-        rotation: 180
-      - brightness: white
-        elements_changed: []
-        figure: 10
-        frame: thin
-        rotation: 0
+        frame: wide
+        rotation: 270
       - brightness: slate
         elements_changed: []
         figure: 1
+        frame: narrow
+        rotation: 180
+    - name: D4
+      parameters:
+      - brightness: gray
+        elements_changed: []
+        figure: 15
         frame: wide
+        rotation: 270
+      - brightness: gray
+        elements_changed: []
+        figure: 4
+        frame: thin
         rotation: 90
+      - brightness: white
+        elements_changed: []
+        figure: 11
+        frame: wide
+        rotation: 270
+      - brightness: slate
+        elements_changed:
+        - [frame, 1]
+        - [rotation, 1]
+        figure: 1
+        frame: wide
+        rotation: 270
     - name: D2
       parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 7
-        frame: wide
-        rotation: 270
-      - brightness: white
-        elements_changed:
-        - [rotation, -2]
-        - [frame, 2]
-        figure: 11
-        frame: wide
-        rotation: 0
-      - brightness: white
-        elements_changed:
-        - [rotation, 2]
-        figure: 10
-        frame: thin
-        rotation: 180
-      - brightness: slate
-        elements_changed: []
-        figure: 1
-        frame: wide
-        rotation: 90
-    - name: D3
-      parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 7
-        frame: wide
-        rotation: 270
-      - brightness: white
-        elements_changed:
-        - [rotation, -2]
-        figure: 11
-        frame: thin
-        rotation: 0
-      - brightness: white
-        elements_changed:
-        - [frame, 1]
-        figure: 10
-        frame: narrow
-        rotation: 0
-      - brightness: slate
-        elements_changed: []
-        figure: 1
-        frame: wide
-        rotation: 90
-    - name: D1
-      parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 7
-        frame: wide
-        rotation: 270
-      - brightness: white
-        elements_changed:
-        - [rotation, -2]
-        - [frame, 2]
-        figure: 11
-        frame: wide
-        rotation: 0
-      - brightness: white
-        elements_changed:
-        - [frame, 1]
-        figure: 10
-        frame: narrow
-        rotation: 0
-      - brightness: slate
-        elements_changed: []
-        figure: 1
-        frame: wide
-        rotation: 90
-    - name: D5
-      parameters:
-      - brightness: slate
-        elements_changed: []
-        figure: 7
-        frame: wide
-        rotation: 270
-      - brightness: white
-        elements_changed: []
-        figure: 11
-        frame: thin
-        rotation: 180
-      - brightness: white
-        elements_changed:
-        - [frame, 1]
-        figure: 10
-        frame: narrow
-        rotation: 0
-      - brightness: slate
-        elements_changed: []
-        figure: 1
-        frame: wide
-        rotation: 90
-    rel: 2
-    time: 120
-    tip: ''
-    tip_time: 4
-    type: trial
-    wait: 5
-  - exp: experiment
-    feedb: 0
-    matrix_info:
-    - name: A
-      parameters:
-      - brightness: white
-        elements_changed: []
-        figure: 5
-        frame: wide
-        rotation: 0
-      - brightness: slate
-        elements_changed: []
-        figure: 19
-        frame: wide
-        rotation: 90
       - brightness: gray
-        elements_changed: []
-        figure: 16
-        frame: narrow
-        rotation: 0
-      - brightness: gray
-        elements_changed: []
-        figure: 12
-        frame: thin
-        rotation: 270
-    - name: B
-      parameters:
-      - brightness: white
         elements_changed:
-        - [brightness, -2]
         - [frame, -2]
-        figure: 19
+        - [rotation, -2]
+        figure: 15
         frame: thin
         rotation: 90
       - brightness: gray
-        elements_changed:
-        - [rotation, 1]
-        - [frame, 1]
-        figure: 16
-        frame: wide
-        rotation: 90
-      - brightness: white
-        elements_changed:
-        - [frame, 2]
-        - [rotation, -2]
-        - [brightness, -1]
-        figure: 12
-        frame: wide
-        rotation: 90
-      - brightness: slate
-        elements_changed:
-        - [frame, -1]
-        - [brightness, 2]
-        figure: 5
-        frame: narrow
-        rotation: 0
-    - name: C
-      parameters:
-      - brightness: white
-        elements_changed: []
-        figure: 18
-        frame: narrow
-        rotation: 0
-      - brightness: slate
-        elements_changed: []
-        figure: 13
-        frame: wide
-        rotation: 90
-      - brightness: white
         elements_changed: []
         figure: 4
-        frame: narrow
-        rotation: 0
-      - brightness: gray
-        elements_changed: []
-        figure: 9
         frame: thin
-        rotation: 270
-    - name: D1
-      parameters:
-      - brightness: white
-        elements_changed:
-        - [rotation, 1]
-        - [frame, 1]
-        figure: 4
-        frame: wide
-        rotation: 90
-      - brightness: white
-        elements_changed:
-        - [frame, 2]
-        - [rotation, -2]
-        - [brightness, -1]
-        figure: 9
-        frame: wide
-        rotation: 90
-      - brightness: white
-        elements_changed:
-        - [brightness, -2]
-        - [frame, -2]
-        figure: 13
-        frame: thin
-        rotation: 90
-      - brightness: slate
-        elements_changed:
-        - [frame, -1]
-        - [brightness, 2]
-        figure: 18
-        frame: thin
-        rotation: 0
-    - name: D2
-      parameters:
-      - brightness: white
-        elements_changed:
-        - [rotation, 1]
-        - [frame, 1]
-        figure: 4
-        frame: wide
-        rotation: 90
-      - brightness: white
-        elements_changed:
-        - [frame, 2]
-        - [rotation, -2]
-        - [brightness, -1]
-        figure: 9
-        frame: wide
         rotation: 90
       - brightness: slate
         elements_changed:
         - [rotation, -1]
-        - [frame, -2]
-        figure: 13
-        frame: thin
-        rotation: 0
-      - brightness: slate
-        elements_changed:
         - [frame, -1]
         - [brightness, 2]
-        figure: 18
+        figure: 11
+        frame: narrow
+        rotation: 180
+      - brightness: slate
+        elements_changed:
+        - [frame, 1]
+        - [rotation, 1]
+        figure: 1
+        frame: wide
+        rotation: 270
+    - name: D1
+      parameters:
+      - brightness: white
+        elements_changed:
+        - [brightness, -1]
+        - [rotation, -2]
+        figure: 15
+        frame: wide
+        rotation: 90
+      - brightness: gray
+        elements_changed: []
+        figure: 4
         frame: thin
-        rotation: 0
+        rotation: 90
+      - brightness: slate
+        elements_changed:
+        - [rotation, -1]
+        - [frame, -1]
+        - [brightness, 2]
+        figure: 11
+        frame: narrow
+        rotation: 180
+      - brightness: slate
+        elements_changed:
+        - [frame, 1]
+        - [rotation, 1]
+        figure: 1
+        frame: wide
+        rotation: 270
+    - name: D5
+      parameters:
+      - brightness: gray
+        elements_changed: []
+        figure: 15
+        frame: wide
+        rotation: 270
+      - brightness: gray
+        elements_changed: []
+        figure: 4
+        frame: thin
+        rotation: 90
+      - brightness: white
+        elements_changed: []
+        figure: 11
+        frame: wide
+        rotation: 270
+      - brightness: slate
+        elements_changed:
+        - [frame, 1]
+        figure: 1
+        frame: wide
+        rotation: 180
     - name: D3
       parameters:
       - brightness: white
         elements_changed:
-        - [rotation, 1]
-        - [frame, 1]
-        figure: 4
-        frame: wide
-        rotation: 90
-      - brightness: white
-        elements_changed:
-        - [frame, 2]
-        - [rotation, -2]
         - [brightness, -1]
-        figure: 9
+        - [rotation, -2]
+        figure: 15
         frame: wide
         rotation: 90
-      - brightness: white
-        elements_changed:
-        - [brightness, -2]
-        figure: 13
-        frame: wide
+      - brightness: gray
+        elements_changed: []
+        figure: 4
+        frame: thin
         rotation: 90
       - brightness: slate
         elements_changed:
+        - [rotation, -1]
         - [frame, -1]
         - [brightness, 2]
-        figure: 18
+        figure: 11
+        frame: narrow
+        rotation: 180
+      - brightness: slate
+        elements_changed:
+        - [frame, 1]
+        figure: 1
+        frame: wide
+        rotation: 180
+    rel: 3
+    time: 120
+    tip: ''
+    tip_time: 4
+    type: trial
+    wait: 5
+  - exp: experiment
+    feedb: 0
+    matrix_info:
+    - name: A
+      parameters:
+      - brightness: white
+        elements_changed: []
+        figure: 3
+        frame: wide
+        rotation: 0
+      - brightness: slate
+        elements_changed: []
+        figure: 8
+        frame: wide
+        rotation: 180
+      - brightness: gray
+        elements_changed: []
+        figure: 2
+        frame: thin
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 20
+        frame: thin
+        rotation: 180
+    - name: B
+      parameters:
+      - brightness: slate
+        elements_changed:
+        - [rotation, -2]
+        figure: 8
+        frame: wide
+        rotation: 0
+      - brightness: slate
+        elements_changed:
+        - [rotation, -1]
+        - [brightness, 1]
+        figure: 2
+        frame: thin
+        rotation: 90
+      - brightness: slate
+        elements_changed:
+        - [frame, 1]
+        - [rotation, 1]
+        figure: 20
+        frame: narrow
+        rotation: 270
+      - brightness: white
+        elements_changed: []
+        figure: 3
+        frame: wide
+        rotation: 0
+    - name: C
+      parameters:
+      - brightness: white
+        elements_changed: []
+        figure: 15
+        frame: wide
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 4
+        frame: wide
+        rotation: 270
+      - brightness: gray
+        elements_changed: []
+        figure: 7
+        frame: thin
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 17
         frame: thin
         rotation: 0
     - name: D6
       parameters:
-      - brightness: white
+      - brightness: slate
         elements_changed: []
-        figure: 4
-        frame: narrow
+        figure: 17
+        frame: thin
         rotation: 0
       - brightness: gray
         elements_changed: []
-        figure: 9
+        figure: 7
         frame: thin
-        rotation: 270
-      - brightness: slate
-        elements_changed: []
-        figure: 13
-        frame: wide
         rotation: 90
       - brightness: white
         elements_changed: []
-        figure: 18
-        frame: narrow
-        rotation: 0
-    - name: D5
+        figure: 15
+        frame: wide
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 4
+        frame: wide
+        rotation: 270
+    - name: D3
       parameters:
-      - brightness: white
+      - brightness: slate
         elements_changed:
         - [frame, 1]
-        figure: 4
-        frame: wide
-        rotation: 0
-      - brightness: gray
-        elements_changed: []
-        figure: 9
-        frame: thin
-        rotation: 270
+        - [rotation, 1]
+        figure: 17
+        frame: narrow
+        rotation: 90
       - brightness: slate
-        elements_changed: []
-        figure: 13
-        frame: wide
+        elements_changed:
+        - [brightness, 1]
+        figure: 7
+        frame: thin
         rotation: 90
       - brightness: white
         elements_changed: []
-        figure: 18
-        frame: narrow
-        rotation: 0
-    - name: D4
-      parameters:
-      - brightness: white
-        elements_changed: []
-        figure: 4
-        frame: narrow
-        rotation: 0
-      - brightness: gray
-        elements_changed: []
-        figure: 9
-        frame: thin
-        rotation: 270
-      - brightness: slate
-        elements_changed: []
-        figure: 13
+        figure: 15
         frame: wide
         rotation: 90
       - brightness: slate
         elements_changed:
-        - [frame, -1]
-        - [brightness, 2]
-        figure: 18
+        - [rotation, -2]
+        figure: 4
+        frame: wide
+        rotation: 90
+    - name: D1
+      parameters:
+      - brightness: slate
+        elements_changed:
+        - [frame, 1]
+        - [rotation, 1]
+        figure: 17
+        frame: narrow
+        rotation: 90
+      - brightness: slate
+        elements_changed:
+        - [rotation, -1]
+        - [brightness, 1]
+        figure: 7
         frame: thin
         rotation: 0
-    rel: 4
+      - brightness: white
+        elements_changed: []
+        figure: 15
+        frame: wide
+        rotation: 90
+      - brightness: slate
+        elements_changed:
+        - [rotation, -2]
+        figure: 4
+        frame: wide
+        rotation: 90
+    - name: D4
+      parameters:
+      - brightness: slate
+        elements_changed:
+        - [frame, 1]
+        - [rotation, 1]
+        figure: 17
+        frame: narrow
+        rotation: 90
+      - brightness: gray
+        elements_changed: []
+        figure: 7
+        frame: thin
+        rotation: 90
+      - brightness: white
+        elements_changed: []
+        figure: 15
+        frame: wide
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 4
+        frame: wide
+        rotation: 270
+    - name: D2
+      parameters:
+      - brightness: gray
+        elements_changed:
+        - [frame, 1]
+        - [brightness, -1]
+        figure: 17
+        frame: narrow
+        rotation: 0
+      - brightness: slate
+        elements_changed:
+        - [rotation, -1]
+        - [brightness, 1]
+        figure: 7
+        frame: thin
+        rotation: 0
+      - brightness: white
+        elements_changed: []
+        figure: 15
+        frame: wide
+        rotation: 90
+      - brightness: slate
+        elements_changed:
+        - [rotation, -2]
+        figure: 4
+        frame: wide
+        rotation: 90
+    - name: D5
+      parameters:
+      - brightness: slate
+        elements_changed: []
+        figure: 17
+        frame: thin
+        rotation: 0
+      - brightness: slate
+        elements_changed:
+        - [brightness, 1]
+        figure: 7
+        frame: thin
+        rotation: 90
+      - brightness: white
+        elements_changed: []
+        figure: 15
+        frame: wide
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 4
+        frame: wide
+        rotation: 270
+    rel: 3
+    time: 120
+    tip: ''
+    tip_time: 4
+    type: trial
+    wait: 5
+  - exp: experiment
+    feedb: 0
+    matrix_info:
+    - name: A
+      parameters:
+      - brightness: white
+        elements_changed: []
+        figure: 12
+        frame: thin
+        rotation: 90
+      - brightness: white
+        elements_changed: []
+        figure: 6
+        frame: wide
+        rotation: 270
+      - brightness: slate
+        elements_changed: []
+        figure: 10
+        frame: narrow
+        rotation: 90
+      - brightness: slate
+        elements_changed: []
+        figure: 1
+        frame: thin
+        rotation: 0
+    - name: B
+      parameters:
+      - brightness: white
+        elements_changed: []
+        figure: 6
+        frame: wide
+        rotation: 270
+      - brightness: slate
+        elements_changed:
+        - [rotation, 2]
+        figure: 1
+        frame: thin
+        rotation: 180
+      - brightness: white
+        elements_changed: []
+        figure: 12
+        frame: thin
+        rotation: 90
+      - brightness: white
+        elements_changed:
+        - [rotation, 1]
+        - [brightness, -2]
+        figure: 10
+        frame: narrow
+        rotation: 180
+    - name: C
+      parameters:
+      - brightness: white
+        elements_changed: []
+        figure: 7
+        frame: thin
+        rotation: 180
+      - brightness: white
+        elements_changed: []
+        figure: 4
+        frame: wide
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 17
+        frame: wide
+        rotation: 0
+      - brightness: gray
+        elements_changed: []
+        figure: 11
+        frame: thin
+        rotation: 0
+    - name: D1
+      parameters:
+      - brightness: gray
+        elements_changed:
+        - [rotation, 2]
+        figure: 11
+        frame: thin
+        rotation: 180
+      - brightness: white
+        elements_changed: []
+        figure: 7
+        frame: thin
+        rotation: 180
+      - brightness: white
+        elements_changed: []
+        figure: 4
+        frame: wide
+        rotation: 180
+      - brightness: white
+        elements_changed:
+        - [rotation, 1]
+        - [brightness, -2]
+        figure: 17
+        frame: wide
+        rotation: 90
+    - name: D3
+      parameters:
+      - brightness: gray
+        elements_changed:
+        - [rotation, 2]
+        figure: 11
+        frame: thin
+        rotation: 180
+      - brightness: white
+        elements_changed: []
+        figure: 7
+        frame: thin
+        rotation: 180
+      - brightness: white
+        elements_changed: []
+        figure: 4
+        frame: wide
+        rotation: 180
+      - brightness: slate
+        elements_changed:
+        - [rotation, 1]
+        figure: 17
+        frame: wide
+        rotation: 90
+    - name: D5
+      parameters:
+      - brightness: gray
+        elements_changed: []
+        figure: 11
+        frame: thin
+        rotation: 0
+      - brightness: white
+        elements_changed: []
+        figure: 7
+        frame: thin
+        rotation: 180
+      - brightness: white
+        elements_changed: []
+        figure: 4
+        frame: wide
+        rotation: 180
+      - brightness: slate
+        elements_changed:
+        - [rotation, 1]
+        figure: 17
+        frame: wide
+        rotation: 90
+    - name: D4
+      parameters:
+      - brightness: gray
+        elements_changed: []
+        figure: 11
+        frame: thin
+        rotation: 0
+      - brightness: white
+        elements_changed: []
+        figure: 7
+        frame: thin
+        rotation: 180
+      - brightness: white
+        elements_changed: []
+        figure: 4
+        frame: wide
+        rotation: 180
+      - brightness: white
+        elements_changed:
+        - [rotation, 1]
+        - [brightness, -2]
+        figure: 17
+        frame: wide
+        rotation: 90
+    - name: D2
+      parameters:
+      - brightness: gray
+        elements_changed:
+        - [frame, 2]
+        figure: 11
+        frame: wide
+        rotation: 0
+      - brightness: white
+        elements_changed: []
+        figure: 7
+        frame: thin
+        rotation: 180
+      - brightness: white
+        elements_changed: []
+        figure: 4
+        frame: wide
+        rotation: 180
+      - brightness: white
+        elements_changed:
+        - [rotation, 1]
+        - [brightness, -2]
+        figure: 17
+        frame: wide
+        rotation: 90
+    - name: D6
+      parameters:
+      - brightness: gray
+        elements_changed: []
+        figure: 11
+        frame: thin
+        rotation: 0
+      - brightness: white
+        elements_changed: []
+        figure: 7
+        frame: thin
+        rotation: 180
+      - brightness: white
+        elements_changed: []
+        figure: 4
+        frame: wide
+        rotation: 180
+      - brightness: slate
+        elements_changed: []
+        figure: 17
+        frame: wide
+        rotation: 0
+    rel: 2
     time: 120
     tip: ''
     tip_time: 4
