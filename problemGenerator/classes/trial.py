@@ -23,32 +23,46 @@ class Trial:
         self.tip_time = tip_time
         self.list_of_changes = []
 
-        self.matrix_list = None
+        self.matrix_list = []
         self.matrix_a = None
         self.matrix_b = None
         self.matrix_c = None
-        self.matrix_d1 = None
-        self.matrix_d2 = None
-        self.matrix_d3 = None
-        self.matrix_d4 = None
-        self.matrix_d5 = None
         self.matrix_d6 = None
 
         self.create_all_matrix()
+
+    def check_matrix_repeat(self, matrix):
+        for m in self.matrix_list:
+            if matrix == m:
+                return True
+        return False
 
     def create_all_matrix(self):
         self.create_matrix_a()
         self.create_matrix_b()
         self.create_matrix_c()
         self.create_matrix_d6()
-        self.create_matrix_d1()
-        self.create_matrix_d2()
-        self.create_matrix_d3()
-        self.create_matrix_d4()
-        self.create_matrix_d5()
-
-        self.matrix_list = [self.matrix_d1, self.matrix_d2, self.matrix_d3,
-                            self.matrix_d4, self.matrix_d5, self.matrix_d6]
+        for matrix_number in self.answers:
+            if matrix_number == 6:
+                self.matrix_list.append(self.matrix_d6)
+            else:
+                while True:
+                    if matrix_number == 5:
+                        new_matrix = self.create_matrix_d5()
+                    elif matrix_number == 4:
+                        new_matrix = self.create_matrix_d4()
+                    elif matrix_number == 3:
+                        new_matrix = self.create_matrix_d3()
+                    elif matrix_number == 2:
+                        new_matrix = self.create_matrix_d2()
+                    elif matrix_number == 1:
+                        new_matrix = self.create_matrix_d1()
+                    else:
+                        raise Exception("Wrong value in trial answer.")
+                    #self.matrix_list.append(new_matrix)
+                    if not self.check_matrix_repeat(new_matrix):
+                        self.matrix_list.append(new_matrix)
+                        break
         self.shuffle_all_matrix()
 
         random.shuffle(self.matrix_list)
@@ -80,7 +94,6 @@ class Trial:
             matrix_rotation_changes_pairs = [x for x in matrix_rotation_changes_pairs if x[1] != figure_rotation[1]]
 
             figures_list += [Figure([name, figure_rotation, figure_brightness, figure_frame])]
-
         self.figures = self.figures[self.figures_list_len:]
         self.matrix_a = Matrix(figures_list)
         self.matrix_a.name = "A"
@@ -121,28 +134,33 @@ class Trial:
         self.matrix_c.name = "C"
 
     def create_matrix_d1(self):
-        self.matrix_d1 = copy.deepcopy(self.matrix_d6)
-        self.matrix_d1.change_figures_d1(self.list_of_changes)
+        matrix_d1 = copy.deepcopy(self.matrix_d6)
+        matrix_d1.change_figures_d1(self.list_of_changes)
+        return matrix_d1
 
     def create_matrix_d2(self):
-        self.matrix_d2 = copy.deepcopy(self.matrix_d6)
+        matrix_d2 = copy.deepcopy(self.matrix_d6)
         list_of_changes = copy.deepcopy(self.list_of_changes)
-        self.matrix_d2.change_figures_d2(list_of_changes)
+        matrix_d2.change_figures_d2(list_of_changes)
+        return matrix_d2
 
     def create_matrix_d3(self):
-        self.matrix_d3 = copy.deepcopy(self.matrix_d6)
+        matrix_d3 = copy.deepcopy(self.matrix_d6)
         list_of_changes = copy.deepcopy(self.list_of_changes)
-        self.matrix_d3.change_figures_d3(list_of_changes)
+        matrix_d3.change_figures_d3(list_of_changes)
+        return matrix_d3
 
     def create_matrix_d4(self):
-        self.matrix_d4 = copy.deepcopy(self.matrix_d6)
+        matrix_d4 = copy.deepcopy(self.matrix_d6)
         list_of_changes = copy.deepcopy(self.list_of_changes)
-        self.matrix_d4.change_figures_d4(list_of_changes)
+        matrix_d4.change_figures_d4(list_of_changes)
+        return matrix_d4
 
     def create_matrix_d5(self):
-        self.matrix_d5 = copy.deepcopy(self.matrix_d6)
+        matrix_d5 = copy.deepcopy(self.matrix_d6)
         list_of_changes = copy.deepcopy(self.list_of_changes)
-        self.matrix_d5.change_figures_d5(list_of_changes)
+        matrix_d5.change_figures_d5(list_of_changes)
+        return matrix_d5
 
     def create_matrix_d6(self):
         self.matrix_d6 = copy.deepcopy(self.matrix_c)
@@ -159,6 +177,7 @@ class Trial:
             "exp": self.exp,
             "matrix_info": self.matrix_list,
             "tip": self.tip,
-            "tip_time": self.tip_time
+            "tip_time": self.tip_time,
+            "answers": self.answers
         }
         return trial_info

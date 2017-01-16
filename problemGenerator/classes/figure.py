@@ -18,6 +18,11 @@ class Figure:
     def __str__(self):
         return "{} {} {} {} {}".format(self.number, self.rotation, self.brightness, self.frame, self.elements_changed)
 
+    def __eq__(self, other):
+        if self.number != other.number or self.rotation != other.rotation or self.brightness != other.brightness or self.frame != other.frame:
+            return False
+        return True
+
     def return_parameters(self):
         return {
             "figure": self.number,

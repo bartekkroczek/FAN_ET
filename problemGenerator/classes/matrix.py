@@ -15,6 +15,14 @@ class Matrix:
             a += x.__str__()
         return a
 
+    def __eq__(self, other):
+        if self.name != other.name:
+            return False
+        for figure_1 in self.figures_list:
+            if all([not figure_1 == figure_2 for figure_2 in other.figures_list]):
+                return False
+        return True
+
     def return_figure_list(self):
         parameters = []
         for figure in self.figures_list:
@@ -37,9 +45,9 @@ class Matrix:
         figures_position = range(len(self.figures_list))
         random.shuffle(figures_position)
         figures_position = figures_position[:number_of_figures_to_change]
-        list_of_parameters_to_change = [2]
+        list_of_parameters_to_change = [3]
         for i in range(number_of_figures_to_change - 1):
-            list_of_parameters_to_change += [random.choice(range(1, 4))]
+            list_of_parameters_to_change += [2]
 
         for i in range(number_of_figures_to_change):
             self.figures_list[figures_position[i]].change_parameters(list_of_parameters_to_change[i])
@@ -86,8 +94,8 @@ class Matrix:
         self.name = "D3"
 
     def change_figures_d4(self, list_of_changes):
-        changes_2_or_1 = [x for x in list_of_changes if 2 <= len(x) <= 3]
-        figure_elements_to_change = random.choice(changes_2_or_1)
+        changes_2_or_3 = [x for x in list_of_changes if 2 <= len(x) <= 3]
+        figure_elements_to_change = random.choice(changes_2_or_3)
         for idx, figure in enumerate(list_of_changes):
             if figure == figure_elements_to_change:
                 for name, _ in figure_elements_to_change:

@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from os.path import join
+from os import rename
 import yaml
 from psychopy import visual, core, logging, event, gui
 from psychopy.iohub import ioHubExperimentRuntime, module_directory, getCurrentDateTimeString
@@ -16,9 +17,9 @@ VISUAL_OFFSET = 150
 TEXT_SIZE = 30
 SCALE = 0.65
 TRIGGER_LIST = []
-RESULTS = [['session_id', 'start_time', 'end_time', 'choosed_option', 'ans_accept', 'rt', 'corr', 'time', 'rel', 'feedb', 'wait', 'exp', 'type']]
+RESULTS = [['session_id', 'start_time', 'end_time', 'choosed_option', 'ans_accept', 'rt', 'corr', 'time', 'rel', 'feedb', 'wait', 'exp', 'type', 'answers']]
 PART_ID = ''
-
+SCREEN_RES = {}
 
 # TIME, REL, FEEDB, WAIT, EXP, POS  (pozycja z sześciu, na której była prezentowana opcja D),
 #  LATENCY (czas odpowiedzi – naciśnięcia „zatwierdź
@@ -127,7 +128,7 @@ class StimulusCanvas(object):
 
 class ExperimentRuntime(ioHubExperimentRuntime):
     def run(self, *args):
-        global PART_ID
+        global PART_ID, SCREEN_RES
         info = {'Part_id': '', 'Part_age': '20', 'Part_sex': ['MALE', "FEMALE"],
                 'ExpDate': '06.2016'}
         dictDlg = gui.DlgFromDict(dictionary=info, title='FAN', fixed=['ExpDate'])
@@ -159,7 +160,8 @@ class ExperimentRuntime(ioHubExperimentRuntime):
         data = yaml.load(open(join('results', PART_ID + '.yaml'), 'r'))
         SCREEN_RES = get_screen_res()
         tracker.runSetupProcedure()
-
+        tracker._full_edf_name = PART_ID + '.edf'
+        tracker._host_edf_name = PART_ID + '.edf'
         res = display.getPixelResolution()  # Current pixel resolution of the Display to be used
         coord_type = display.getCoordinateType()
         window = visual.Window(res, monitor=display.getPsychopyMonitorName(), units=coord_type, fullscr=True,
@@ -184,19 +186,20 @@ class ExperimentRuntime(ioHubExperimentRuntime):
                                        pos=(
                                            4.6 * SCREEN_RES['width'] / 13.0, -2.8 * SCREEN_RES['height'] / 7.0 - 60))
         LABELS = [to_label, is_like_label, line, to_choose_one_label, time_left_label, accept_box, accept_label]
-        end_of_instruction = True
         flip_time = None
-        for t, block in enumerate(data['list_of_blocks']):
+        experiment_start = False
+        for block_no, block in enumerate(data['list_of_blocks']):
             # TODO: ADD break support
-            for trial in block['experiment_elements']:
+            for trial_no, trial in enumerate(block['experiment_elements']):
                 if trial['type'] == 'instruction':
-                    flip_time = show_info(window, join('.', 'messages', trial['path']))
+                    flip_time = show_info(window, join('.', 'messages', str(trial['path'])))
                     continue
-                if end_of_instruction:
-                    end_of_instruction = False
+                if not experiment_start:  # start recording
+                    experiment_start = True
+                    print 'dolary'
                     self.hub.sendMessageEvent(text="EXPERIMENT_START", sec_time=flip_time)
                     self.hub.sendMessageEvent(text="IO_HUB EXPERIMENT_INFO START")
-                    self.hub.sendMessageEvent(text="ioHub Experiment started {0}".format(getCurrentDateTimeString()))
+                    self.hub.sendMessageEvent(text="io Hub Experiment started {0}".format(getCurrentDateTimeString()))
                     self.hub.sendMessageEvent(text="Experiment ID: {0}, Session ID: {1}".format(self.hub.experimentID,
                                                                                                 self.hub.experimentSessionID))
                     self.hub.sendMessageEvent(
@@ -278,11 +281,11 @@ class ExperimentRuntime(ioHubExperimentRuntime):
                 [lab.setAutoDraw(False) for lab in LABELS]
                 flip_time = window.flip()
                 etime = flip_time
-                self.hub.sendMessageEvent(text="TRIAL_END %d" % t, sec_time=flip_time)
+                self.hub.sendMessageEvent(text="TRIAL_END %d" % block_no, sec_time=flip_time)
                 tracker.setRecordingState(False)
                 self.hub.clearEvents('all')
                 RESULTS.append([self.hub.getSessionID(), stime, etime, choosed_option, ans_accept, rt, corr, trial['time'], trial['rel'], trial['feedb'],
-                                trial['wait'], trial['exp'], trial['type']])
+                                trial['wait'], trial['exp'], trial['type'], trial['answers']])
         flip_time = window.flip()
         self.hub.sendMessageEvent(text='EXPERIMENT_COMPLETE', sec_time=flip_time)
         tracker.setConnectionState(False)
@@ -295,5 +298,8 @@ class ExperimentRuntime(ioHubExperimentRuntime):
 
 
 if __name__ == '__main__':
+    global PART_ID
     runtime = ExperimentRuntime(module_directory(ExperimentRuntime.run), "experiment_config.yaml")
     runtime.start()
+    rename('et_data.EDF', PART_ID + '.edf')
+    rename('events.hdf5', PART_ID + '_events.hdf5')

@@ -78,7 +78,7 @@ def concrete_experiment(filename, id, sex, age, randomize=True):
         elif trial_info['TYPE'] == Trial_type.training or trial_info['TYPE'] == Trial_type.experiment:
             trial = Trial(time=trial_info['SHOW_TIME'], per=Per.small, rel=trial_info['RELATIONS'],
                           feedb=trial_info['FEEDB'], wait=trial_info['WAIT_TIME'], exp=trial_info['TYPE'],
-                          tip=trial_info.get('TIP'), tip_time=trial_info['TIP_TIME'], answers=trial_info['ANSWERS'])
+                          tip=trial_info.get('TIP'), tip_time=trial_info['TIP_TIME'], answers=eval(trial_info['ANSWERS']))
         else:
             print trial_info['TYPE']
             raise AssertionError("wrong trial type")
